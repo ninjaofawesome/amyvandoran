@@ -17,9 +17,43 @@ body {
 .row-vert-space {
   margin-top: 10px; }
 
+.navbar-default {
+  background-image: none;
+  background-color: white;
+  box-shadow: none;
+  border-color: none;
+  border: none; }
+
+.navbar-nav > li.yellow:hover {
+  background-color: #fff565; }
+
+.navbar-nav > li.pink:hover {
+  background-color: #ffcccc; }
+
+.navbar-nav > li.blue:hover {
+  background-color: #77d9d3; }
+
+.navbar-default .navbar-collapse {
+  background-image: none;
+  background-color: white;
+  box-shadow: none;
+  border-color: none;
+  border: none; }
+
+.navbar-brand {
+  padding: 5px 15px; }
+
+.light {
+  font-family: 'neutraface', helvetica, arial, sans-serif; }
+
+.header-spacing {
+  margin-top: 10px; }
+
 .index-page-img {
-  margin-top: 10px;
-  border-radius: 200px; }
+  margin-top: 20px;
+  border-radius: 200px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .btn {
   background-color: #ffcccc;
@@ -265,6 +299,9 @@ h1.yellow {
 h1.pink {
   color: #ffcccc;
   font-size: 300%; }
+
+h1.centered, h2.centered, h3.centered, h4.centered, h5.centered, h6.centered {
+  text-align: center; }
 
 .jumbotron {
   background-color: #77d9d3; }

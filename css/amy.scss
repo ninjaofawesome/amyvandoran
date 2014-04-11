@@ -49,7 +49,50 @@ body {
 
 //NAVBAR
 
+.navbar-default {
+  background-image: none;
+  background-color: $white;
+  box-shadow: none;
+  border-color: none;
+  border: none;
+  // margin-bottom: 5px;
+  // height: 50px;
 
+}
+
+.navbar-nav > li.yellow:hover {
+  background-color: $lt-yellow;
+}
+
+.navbar-nav > li.pink:hover {
+  background-color: $pink;
+}
+
+.navbar-nav > li.blue:hover {
+  background-color: $blue;
+}
+
+.navbar-default .navbar-collapse {
+  background-image: none;
+  background-color: $white;
+  box-shadow: none;
+  border-color: none;
+  border: none;
+  // margin-bottom: 5px;
+  // height: 50px;
+
+}
+.navbar-brand{
+  padding: 5px 15px;
+}
+
+.light {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+}
+
+.header-spacing {
+  margin-top: 10px;
+}
 
 
 //COMMERCIAL
@@ -59,8 +102,10 @@ body {
 //IMAGES
 
 .index-page-img{
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //BUTTONS
@@ -339,6 +384,10 @@ h1.yellow {
 h1.pink {
   color: $pink;
   font-size: 300%;
+}
+
+h1.centered,h2.centered,h3.centered,h4.centered,h5.centered,h6.centered{
+  text-align: center;
 }
 
 
