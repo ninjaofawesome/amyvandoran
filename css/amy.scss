@@ -94,6 +94,11 @@ body {
   margin-top: 10px;
 }
 
+.icons:hover {
+  transition: color .25s;
+  color: $blue;
+}
+
 
 //COMMERCIAL
 
