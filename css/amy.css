@@ -309,3 +309,9 @@ h1.centered, h2.centered, h3.centered, h4.centered, h5.centered, h6.centered {
 
 .jumbotron {
   background-color: #77d9d3; }
+
+.cupid {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #999999; }

@@ -395,12 +395,16 @@ h1.centered,h2.centered,h3.centered,h4.centered,h5.centered,h6.centered{
   text-align: center;
 }
 
-
-
-
 //IMAGES
 
 .jumbotron{
   background-color: $blue;
+}
+
+.cupid {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid $lt-gray;
 }
 
