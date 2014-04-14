@@ -8,6 +8,7 @@
   padding-left: 0px; }
 
 body {
+  font-size: 18px;
   font-weight: 400;
   font-family: 'neutraface', helvetica, arial, sans-serif; }
 
@@ -15,7 +16,10 @@ body {
   text-align: center; }
 
 .row-vert-space {
-  margin-top: 10px; }
+  margin-top: 20px; }
+
+.bump-left {
+  margin-left: 7%; }
 
 .navbar-default {
   background-image: none;
@@ -52,12 +56,6 @@ body {
 .icons:hover {
   transition: color .25s;
   color: #77d9d3; }
-
-.index-page-img {
-  margin-top: 20px;
-  border-radius: 200px;
-  margin-left: auto;
-  margin-right: auto; }
 
 .btn {
   background-color: #ffcccc;
@@ -282,36 +280,90 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'neutraface titling', helvetica, arial, sans-serif; }
 
-h1.box, h2.box, h3.box, h4.box, h5.box, h6.box {
+h1.box,
+h2.box,
+h3.box,
+h4.box,
+h5.box,
+h6.box {
   color: white;
   font-weight: 700;
   font-family: 'neutraface titling', helvetica, arial, sans-serif; }
 
-h1.navbar, h2.navbar, h3.navbar, h4.navbar, h5.navbar, h6.navbar {
+h1.navbar,
+h2.navbar,
+h3.navbar,
+h4.navbar,
+h5.navbar,
+h6.navbar {
   color: #999999;
   font-weight: 500;
   font-family: 'neutraface', helvetica, arial, sans-serif; }
 
-h1.blue {
+h1.big,
+h2.big,
+h3.big,
+h4.big,
+h5.big,
+h6.big {
+  font-size: 300%; }
+
+h1.squished,
+h2.squished,
+h3.squished,
+h4.squished,
+h5.squished,
+h6.squished {
+  margin: 0; }
+
+h1.blue,
+h2.blue,
+h3.blue,
+h4.blue,
+h5.blue,
+h6.blue {
   color: #77d9d3;
   font-size: 300%; }
 
-h1.yellow {
+h1.yellow,
+h2.yellow,
+h3.yellow,
+h4.yellow,
+h5.yellow,
+h6.yellow {
   color: #fff019;
   font-size: 300%; }
 
-h1.pink {
+h1.pink,
+h2.pink,
+h3.pink,
+h4.pink,
+h5.pink,
+h6.pink {
   color: #ffcccc;
   font-size: 300%; }
 
-h1.centered, h2.centered, h3.centered, h4.centered, h5.centered, h6.centered {
+h1.centered,
+h2.centered,
+h3.centered,
+h4.centered,
+h5.centered,
+h6.centered {
   text-align: center; }
 
 .jumbotron {
   background-color: #77d9d3; }
 
 .cupid {
+  margin-top: 20px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
   border: 2px solid #999999; }
+
+.cupids {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #999999;
+  margin-left: 22%; }
