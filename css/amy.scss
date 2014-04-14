@@ -398,7 +398,6 @@ h4.blue,
 h5.blue,
 h6.blue {
   color: $blue;
-  font-size: 300%;
 }
 
 h1.yellow,
@@ -408,7 +407,6 @@ h4.yellow,
 h5.yellow,
 h6.yellow{
   color: $dk-yellow;
-  font-size: 300%;
 }
 
 h1.pink,
@@ -417,6 +415,35 @@ h3.pink,
 h4.pink,
 h5.pink,
 h6.pink {
+  color: $pink;
+}
+
+h1.big-blue,
+h2.big-blue,
+h3.big-blue,
+h4.big-blue,
+h5.big-blue,
+h6.big-blue {
+  color: $blue;
+  font-size: 300%;
+}
+
+h1.big-yellow,
+h2.big-yellow,
+h3.big-yellow,
+h4.big-yellow,
+h5.big-yellow,
+h6.big-yellow{
+  color: $dk-yellow;
+  font-size: 300%;
+}
+
+h1.big-pink,
+h2.big-pink,
+h3.big-pink,
+h4.big-pink,
+h5.big-pink,
+h6.big-pink {
   color: $pink;
   font-size: 300%;
 }
@@ -428,6 +455,47 @@ h4.centered,
 h5.centered,
 h6.centered{
   text-align: center;
+}
+
+a.blue {
+  color: $blue;
+}
+
+
+a.yellow{
+  color: $lt-yellow;
+}
+
+
+a.pink {
+  color: $pink;
+}
+
+a.blue:hover{
+  color: $dk-blue;
+   text-decoration: none;
+}
+
+a.yellow:hover{
+  color: $dk-yellow;
+  text-decoration: none;
+}
+
+a.pink:hover{
+  color: $dk-pink;
+  text-decoration: none;
+}
+
+a.blue:visited{
+  color: $dk-blue;
+}
+
+a.yellow:visited{
+  color: $dk-yellow;
+}
+
+a.pink:visited{
+  color: $dk-pink;
 }
 
 //IMAGES

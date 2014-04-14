@@ -322,8 +322,7 @@ h3.blue,
 h4.blue,
 h5.blue,
 h6.blue {
-  color: #77d9d3;
-  font-size: 300%; }
+  color: #77d9d3; }
 
 h1.yellow,
 h2.yellow,
@@ -331,8 +330,7 @@ h3.yellow,
 h4.yellow,
 h5.yellow,
 h6.yellow {
-  color: #fff019;
-  font-size: 300%; }
+  color: #fff019; }
 
 h1.pink,
 h2.pink,
@@ -340,6 +338,32 @@ h3.pink,
 h4.pink,
 h5.pink,
 h6.pink {
+  color: #ffcccc; }
+
+h1.big-blue,
+h2.big-blue,
+h3.big-blue,
+h4.big-blue,
+h5.big-blue,
+h6.big-blue {
+  color: #77d9d3;
+  font-size: 300%; }
+
+h1.big-yellow,
+h2.big-yellow,
+h3.big-yellow,
+h4.big-yellow,
+h5.big-yellow,
+h6.big-yellow {
+  color: #fff019;
+  font-size: 300%; }
+
+h1.big-pink,
+h2.big-pink,
+h3.big-pink,
+h4.big-pink,
+h5.big-pink,
+h6.big-pink {
   color: #ffcccc;
   font-size: 300%; }
 
@@ -350,6 +374,36 @@ h4.centered,
 h5.centered,
 h6.centered {
   text-align: center; }
+
+a.blue {
+  color: #77d9d3; }
+
+a.yellow {
+  color: #fff565; }
+
+a.pink {
+  color: #ffcccc; }
+
+a.blue:hover {
+  color: #70ccc6;
+  text-decoration: none; }
+
+a.yellow:hover {
+  color: #fff019;
+  text-decoration: none; }
+
+a.pink:hover {
+  color: #ff949e;
+  text-decoration: none; }
+
+a.blue:visited {
+  color: #70ccc6; }
+
+a.yellow:visited {
+  color: #fff019; }
+
+a.pink:visited {
+  color: #ff949e; }
 
 .jumbotron {
   background-color: #77d9d3; }
