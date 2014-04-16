@@ -311,41 +311,43 @@ body {
 }
 
 //TYPE
+
 a {
   color: $dk-gray;
-}
-
-a:hover {
-  color: $lt-gray;
-}
-
-a:visited {
-  color: $md-gray;
+  &:hover{
+     color: $lt-gray;
+  }
+  &:visited{
+    color: $md-gray;
+  }
 }
 
 a.box {
   color: $white;
+  &:hover{
+     color: $lt-gray;
+  }
+  &:visited{
+    color: $white;
+  }
 }
 
-a.box:hover {
-  color: $lt-gray;
-}
-
-a.box:visited {
-  color: $white;
-}
 
 p {
   color: $md-gray;
   font-size: 125%;
+  &.box{
+    color: $white;
+    font-size: 125%;
+  }
 }
 
-p.box {
-  color: $white;
-   font-size: 125%;
-}
-
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $md-gray;
   font-weight: 700;
   font-family: 'neutraface titling', helvetica, arial, sans-serif;
@@ -498,6 +500,42 @@ a.pink:visited{
   color: $dk-pink;
 }
 
+.ten-bump{
+  margin-left: 10px;
+}
+
+.tencenter-bump{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.twelve-bump{
+  margin-left: 12px;
+}
+
+.fifteen-bump{
+  margin-left: 15px;
+}
+
+.twentyfive-bump{
+  margin-left: 25px;
+}
+
+.thirty-bump{
+  margin-left: 30px;
+}
+
+.forty-bump{
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
 //IMAGES
 
 .jumbotron{
@@ -513,10 +551,14 @@ a.pink:visited{
 }
 
 .cupids {
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 200px;
   border-radius: 100px;
   border: 2px solid $lt-gray;
   margin-left: 22%;
 }
+
+
 

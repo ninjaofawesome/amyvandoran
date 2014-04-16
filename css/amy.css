@@ -251,31 +251,31 @@ body {
 
 a {
   color: #999999; }
-
-a:hover {
-  color: #999999; }
-
-a:visited {
-  color: #666666; }
+  a:hover {
+    color: #999999; }
+  a:visited {
+    color: #666666; }
 
 a.box {
   color: white; }
-
-a.box:hover {
-  color: #999999; }
-
-a.box:visited {
-  color: white; }
+  a.box:hover {
+    color: #999999; }
+  a.box:visited {
+    color: white; }
 
 p {
   color: #666666;
   font-size: 125%; }
+  p.box {
+    color: white;
+    font-size: 125%; }
 
-p.box {
-  color: white;
-  font-size: 125%; }
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #666666;
   font-weight: 700;
   font-family: 'neutraface titling', helvetica, arial, sans-serif; }
@@ -405,6 +405,28 @@ a.yellow:visited {
 a.pink:visited {
   color: #ff949e; }
 
+.ten-bump {
+  margin-left: 10px; }
+
+.tencenter-bump {
+  text-align: center;
+  margin-left: 10px; }
+
+.twelve-bump {
+  margin-left: 12px; }
+
+.fifteen-bump {
+  margin-left: 15px; }
+
+.twentyfive-bump {
+  margin-left: 25px; }
+
+.thirty-bump {
+  margin-left: 30px; }
+
+.forty-bump {
+  margin-left: 40px; }
+
 .jumbotron {
   background-color: #77d9d3; }
 
@@ -416,6 +438,8 @@ a.pink:visited {
   border: 2px solid #999999; }
 
 .cupids {
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 200px;
   border-radius: 100px;
