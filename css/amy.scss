@@ -32,6 +32,7 @@ $dk-yellow: #FFF019;
 }
 
 body {
+  font-size: 18px;
   font-weight: 400;
   font-family: 'neutraface', helvetica, arial, sans-serif;
 
@@ -44,7 +45,11 @@ body {
 //SPACING
 
 .row-vert-space{
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.bump-left {
+  margin-left: 7%;
 }
 
 //NAVBAR
@@ -94,18 +99,9 @@ body {
   margin-top: 10px;
 }
 
-
-//COMMERCIAL
-
-
-
-//IMAGES
-
-.index-page-img{
-  margin-top: 20px;
-  border-radius: 200px;
-  margin-left: auto;
-  margin-right: auto;
+.icons:hover {
+  transition: color .25s;
+  color: $blue;
 }
 
 //BUTTONS
@@ -314,81 +310,232 @@ body {
   outline: none;
 }
 
-
-
-//INPUTS
-
 //TYPE
+
 a {
   color: $dk-gray;
-}
-
-a:hover {
-  color: $lt-gray;
-}
-
-a:visited {
-  color: $md-gray;
+  &:hover{
+     color: $lt-gray;
+  }
+  &:visited{
+    color: $md-gray;
+  }
 }
 
 a.box {
   color: $white;
+  &:hover{
+     color: $lt-gray;
+  }
+  &:visited{
+    color: $white;
+  }
 }
 
-a.box:hover {
-  color: $lt-gray;
-}
-
-a.box:visited {
-  color: $white;
-}
 
 p {
   color: $md-gray;
   font-size: 125%;
+  &.box{
+    color: $white;
+    font-size: 125%;
+  }
 }
 
-p.box {
-  color: $white;
-   font-size: 125%;
-}
-
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $md-gray;
   font-weight: 700;
   font-family: 'neutraface titling', helvetica, arial, sans-serif;
 }
 
-h1.box,h2.box,h3.box,h4.box,h5.box,h6.box {
+h1.box,
+h2.box,
+h3.box,
+h4.box,
+h5.box,
+h6.box {
   color: $white;
   font-weight: 700;
   font-family: 'neutraface titling', helvetica, arial, sans-serif;
 }
 
-h1.navbar,h2.navbar,h3.navbar,h4.navbar,h5.navbar,h6.navbar {
+h1.navbar,
+h2.navbar,
+h3.navbar,
+h4.navbar,
+h5.navbar,
+h6.navbar {
   color: $dk-gray;
   font-weight: 500;
   font-family: 'neutraface', helvetica, arial, sans-serif;
 }
 
-h1.blue {
+h1.big,
+h2.big,
+h3.big,
+h4.big,
+h5.big,
+h6.big{
+  font-size: 300%;
+}
+
+h1.squished,
+h2.squished,
+h3.squished,
+h4.squished,
+h5.squished,
+h6.squished{
+  margin: 0;
+}
+
+h1.blue,
+h2.blue,
+h3.blue,
+h4.blue,
+h5.blue,
+h6.blue {
+  color: $blue;
+}
+
+h1.yellow,
+h2.yellow,
+h3.yellow,
+h4.yellow,
+h5.yellow,
+h6.yellow{
+  color: $dk-yellow;
+}
+
+h1.pink,
+h2.pink,
+h3.pink,
+h4.pink,
+h5.pink,
+h6.pink {
+  color: $pink;
+}
+
+h1.big-blue,
+h2.big-blue,
+h3.big-blue,
+h4.big-blue,
+h5.big-blue,
+h6.big-blue {
   color: $blue;
   font-size: 300%;
 }
 
-h1.yellow {
+h1.big-yellow,
+h2.big-yellow,
+h3.big-yellow,
+h4.big-yellow,
+h5.big-yellow,
+h6.big-yellow{
   color: $dk-yellow;
   font-size: 300%;
 }
 
-h1.pink {
+h1.big-pink,
+h2.big-pink,
+h3.big-pink,
+h4.big-pink,
+h5.big-pink,
+h6.big-pink {
   color: $pink;
   font-size: 300%;
 }
 
-h1.centered,h2.centered,h3.centered,h4.centered,h5.centered,h6.centered{
+h1.centered,
+h2.centered,
+h3.centered,
+h4.centered,
+h5.centered,
+h6.centered{
   text-align: center;
 }
+
+a.blue {
+  color: $blue;
+}
+
+
+a.yellow{
+  color: $lt-yellow;
+}
+
+
+a.pink {
+  color: $pink;
+}
+
+a.blue:hover{
+  color: $dk-blue;
+   text-decoration: none;
+}
+
+a.yellow:hover{
+  color: $dk-yellow;
+  text-decoration: none;
+}
+
+a.pink:hover{
+  color: $dk-pink;
+  text-decoration: none;
+}
+
+a.blue:visited{
+  color: $dk-blue;
+}
+
+a.yellow:visited{
+  color: $dk-yellow;
+}
+
+a.pink:visited{
+  color: $dk-pink;
+}
+
+.ten-bump{
+  margin-left: 10px;
+}
+
+.tencenter-bump{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.twelve-bump{
+  margin-left: 12px;
+}
+
+.fifteen-bump{
+  margin-left: 15px;
+}
+
+.twentyfive-bump{
+  margin-left: 25px;
+}
+
+.thirty-bump{
+  margin-left: 30px;
+}
+
+.forty-bump{
+  margin-left: 40px;
+}
+
+.julie-bump{
+  padding-left: 20px;
+}
+
+
+
+
 
 
 
@@ -398,4 +545,24 @@ h1.centered,h2.centered,h3.centered,h4.centered,h5.centered,h6.centered{
 .jumbotron{
   background-color: $blue;
 }
+
+.cupid {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid $lt-gray;
+}
+
+.cupids {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid $lt-gray;
+  margin-left: 22%;
+}
+
+
 
