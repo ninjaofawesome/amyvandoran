@@ -427,14 +427,24 @@ a.pink:visited {
 .forty-bump {
   margin-left: 40px; }
 
-.julie-bump {
+.name-bump {
   padding-left: 20px; }
+
+.name2-bump {
+  padding-left: 30px; }
 
 .jumbotron {
   background-color: #77d9d3; }
 
 .cupid {
   margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #999999; }
+
+.julie-cupid {
+  margin: 20px 0 0 20px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
