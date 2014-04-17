@@ -18,6 +18,9 @@ body {
 .row-vert-space {
   margin-top: 20px; }
 
+.row-vert-space-lg {
+  margin-top: 100px; }
+
 .bump-left {
   margin-left: 7%; }
 
