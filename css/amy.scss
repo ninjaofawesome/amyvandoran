@@ -53,6 +53,9 @@ body {
 .row-vert-space-lg{
   margin-top: 100px;
 }
+.row-vert-space-xlg{
+  margin-top: 125px;
+}
 .bump-left {
   margin-left: 7%;
 }
@@ -102,6 +105,14 @@ body {
 
 .header-spacing {
   margin-top: 10px;
+}
+
+.icon {
+  color: $md-gray;
+}
+
+.icons {
+  color: $md-gray;
 }
 
 .icons:hover {
@@ -532,6 +543,10 @@ a.pink:visited{
 
 .forty-bump{
   margin-left: 40px;
+}
+
+.one-fifteen-bump{
+  margin-left: 115px;
 }
 
 .name-bump{
