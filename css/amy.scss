@@ -12,12 +12,12 @@ $dk-yellow: #FFF019;
 
 @font-face {
   font-family: 'neutraface titling';
-  src: url('../fonts/neutraface/neutra2displaybold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/neutraface/neutra2displaybold.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'neutraface';
-  src: url('../fonts/neutraface/neutra2displaylight.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/neutraface/neutra2displaylight.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
 
@@ -35,6 +35,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: 'neutraface', helvetica, arial, sans-serif;
+  position: relative;
+  z-index: 0;
 
 }
 
@@ -118,6 +120,13 @@ body {
 .icons:hover {
   transition: color .25s;
   color: $blue;
+}
+
+//CAROUSEL
+#carousel-example-generic{
+  position: relative;
+  z-index: 0;
+
 }
 
 //BUTTONS
@@ -326,6 +335,10 @@ body {
   outline: none;
 }
 
+.btn-primary-centered{
+  margin: 0 25%;
+}
+
 //TYPE
 
 a {
@@ -466,6 +479,17 @@ h6.big-pink {
   font-size: 300%;
 }
 
+h1.big-white,
+h2.big-white,
+h3.big-white,
+h4.big-white,
+h5.big-white,
+h6.big-white {
+  color: $white;
+  text-shadow: -1px 0 $pink, 0 1px $pink, 1px 0 $pink, 0 -1px $pink;
+  font-size: 300%;
+}
+
 h1.centered,
 h2.centered,
 h3.centered,
@@ -589,5 +613,22 @@ a.pink:visited{
   margin-left: 22%;
 }
 
+//MODAL
+.modalDialog{
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  background-color: $lt-yellow;
+  position: absolute;
+  top: -1250px;
+  left: 25%;
+  z-index: 3;
+}
 
+.modalDialogBox {
+  position: relative;
+  top: 15%;
+  left: 30%;
+  z-index: 4;
+}
 

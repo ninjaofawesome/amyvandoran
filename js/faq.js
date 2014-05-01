@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  console.log('slider has loaded');
+  console.log('faq has loaded');
 
   $('.q1-hide').hide();
   $('#q1up').hide();

@@ -1,16 +1,20 @@
 @font-face {
   font-family: 'neutraface titling';
   src: url("../fonts/neutraface/neutra2displaybold.ttf") format("truetype"); }
+
 @font-face {
   font-family: 'neutraface';
   src: url("../fonts/neutraface/neutra2displaylight.ttf") format("truetype"); }
+
 .container-fluid {
   padding-left: 0px; }
 
 body {
   font-size: 18px;
   font-weight: 400;
-  font-family: 'neutraface', helvetica, arial, sans-serif; }
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  position: relative;
+  z-index: 0; }
 
 .description {
   text-align: center; }
@@ -71,6 +75,10 @@ body {
 .icons:hover {
   transition: color .25s;
   color: #77d9d3; }
+
+#carousel-example-generic {
+  position: relative;
+  z-index: 0; }
 
 .btn {
   background-color: #ffcccc;
@@ -264,6 +272,9 @@ body {
   text-decoration: none;
   outline: none; }
 
+.btn-primary-centered {
+  margin: 0 25%; }
+
 a {
   color: #999999; }
   a:hover {
@@ -382,6 +393,16 @@ h6.big-pink {
   color: #ffcccc;
   font-size: 300%; }
 
+h1.big-white,
+h2.big-white,
+h3.big-white,
+h4.big-white,
+h5.big-white,
+h6.big-white {
+  color: white;
+  text-shadow: -1px 0 #ffcccc, 0 1px #ffcccc, 1px 0 #ffcccc, 0 -1px #ffcccc;
+  font-size: 300%; }
+
 h1.centered,
 h2.centered,
 h3.centered,
@@ -476,3 +497,19 @@ a.pink:visited {
   border-radius: 100px;
   border: 2px solid #999999;
   margin-left: 22%; }
+
+.modalDialog {
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  background-color: #fff565;
+  position: absolute;
+  top: -1250px;
+  left: 25%;
+  z-index: 3; }
+
+.modalDialogBox {
+  position: relative;
+  top: 15%;
+  left: 30%;
+  z-index: 4; }
