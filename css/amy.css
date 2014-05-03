@@ -276,7 +276,8 @@ body {
   margin: 0 25%; }
 
 a {
-  color: #999999; }
+  color: #999999;
+  text-decoration: underline; }
   a:hover {
     color: #999999; }
   a:visited {

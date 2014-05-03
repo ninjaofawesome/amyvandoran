@@ -13,6 +13,10 @@ $(document).ready(function(){
   $('#q5up').hide();
   $('.q6-hide').hide();
   $('#q6up').hide();
+  $('.q7-hide').hide();
+  $('#q7up').hide();
+  $('.q8-hide').hide();
+  $('#q8up').hide();
 
   $('#q1').click(function(e){
     $('.q1-hide').slideDown().fadeIn();
@@ -61,7 +65,7 @@ $(document).ready(function(){
     $('#q4up').hide();
     $('#q4').fadeIn();
   });
-   $('#q5').click(function(e){
+  $('#q5').click(function(e){
     $('.q5-hide').slideDown().fadeIn();
     $('#q5').hide();
     $('#q5up').fadeIn();
@@ -72,7 +76,8 @@ $(document).ready(function(){
     $('#q5up').hide();
     $('#q5').fadeIn();
   });
-   $('#q6').click(function(e){
+
+  $('#q6').click(function(e){
     $('.q6-hide').slideDown().fadeIn();
     $('#q6').hide();
     $('#q6up').fadeIn();
@@ -83,5 +88,33 @@ $(document).ready(function(){
     $('#q6up').hide();
     $('#q6').fadeIn();
   });
+
+  $('#q7').click(function(e){
+    $('.q7-hide').slideDown().fadeIn();
+    $('#q7').hide();
+    $('#q7up').fadeIn();
+  });
+
+  $('#q7up').click(function(e){
+    $('.q7-hide').slideUp().hide();
+    $('#q7up').hide();
+    $('#q7').fadeIn();
+  });
+
+  $('#q8').click(function(e){
+    $('.q8-hide').slideDown().fadeIn();
+    $('#q8').hide();
+    $('#q8up').fadeIn();
+  });
+
+  $('#q8up').click(function(e){
+    $('.q8-hide').slideUp().hide();
+    $('#q8up').hide();
+    $('#q8').fadeIn();
+  });
+
+
+
+
 
 });

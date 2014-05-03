@@ -343,6 +343,7 @@ body {
 
 a {
   color: $dk-gray;
+  text-decoration: underline;
   &:hover{
      color: $lt-gray;
   }
