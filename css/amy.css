@@ -1,11 +1,9 @@
 @font-face {
   font-family: 'neutraface titling';
   src: url("../fonts/neutraface/neutra2displaybold.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'neutraface';
   src: url("../fonts/neutraface/neutra2displaylight.ttf") format("truetype"); }
-
 .container-fluid {
   padding-left: 0px; }
 
@@ -33,6 +31,9 @@ body {
 
 .bump-left {
   margin-left: 7%; }
+
+.navbar {
+  margin-bottom: 0; }
 
 .navbar-default {
   background-image: none;
@@ -79,6 +80,10 @@ body {
 #carousel-example-generic {
   position: relative;
   z-index: 0; }
+
+.carousel-styling {
+  margin: 0;
+  padding: 0; }
 
 .btn {
   background-color: #ffcccc;
