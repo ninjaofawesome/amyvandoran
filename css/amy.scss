@@ -64,6 +64,10 @@ body {
 
 //NAVBAR
 
+.navbar {
+  margin-bottom: 0;
+}
+
 .navbar-default {
   background-image: none;
   background-color: $white;
@@ -127,6 +131,11 @@ body {
   position: relative;
   z-index: 0;
 
+}
+
+.carousel-styling{
+  margin: 0;
+  padding: 0;
 }
 
 //BUTTONS
