@@ -9,8 +9,8 @@ $(document).ready(function(){
     $('.modalDialog').addClass('hidden');
   }
 
-  $.cookie('addCookie', 'hideAgain', {expires: 1});
-  $.cookie(('addCookie') );
+     $.cookie('addCookie', 'hideAgain', {expires: 1});
+     $.cookie(('addCookie') );
 
   });
 
