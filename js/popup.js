@@ -10,7 +10,7 @@ $(document).ready(function(){
   }
 
   $.cookie('addCookie', 'hideAgain', {expires: 1});
-  $.cookie('addCookie') );
+  $.cookie(('addCookie') );
 
   });
 
