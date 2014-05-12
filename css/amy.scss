@@ -62,7 +62,16 @@ body {
   margin-left: 7%;
 }
 .big-bump-left {
-  margin-left: 22%;
+  margin-left: 15%;
+}
+.header-spacing {
+  margin-top: 10px;
+}
+.bottom-space {
+  margin-bottom: 50px;
+}
+.no-margin-top {
+  margin-top: 0;
 }
 
 //NAVBAR
@@ -115,10 +124,6 @@ body {
   font-family: 'neutraface', helvetica, arial, sans-serif;
 }
 
-.header-spacing {
-  margin-top: 10px;
-}
-
 .icon {
   color: $md-gray;
 }
@@ -142,6 +147,12 @@ body {
 .carousel-styling{
   margin: 0;
   padding: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+
 }
 
 //BUTTONS
@@ -421,6 +432,10 @@ h6 {
 
 .compact {
   margin-bottom: 0;
+}
+
+.upper-compact {
+  margin-top: 0;
 }
 
 .blue {
