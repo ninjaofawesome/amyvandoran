@@ -47,15 +47,30 @@ body {
 .container-fluid {
   margin: 0 auto; }
 
-.navbar {
-  margin-bottom: 0; }
-
 .navbar-default {
   background-image: none;
   background-color: white;
   box-shadow: none;
   border-color: none;
   border: none; }
+
+.navbar {
+  position: relative;
+  min-height: 30px;
+  margin-bottom: 0;
+  border: none; }
+
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+.navbar-collapse.in {
+  overflow-y: auto; }
 
 .navbar-nav > li.yellow:hover {
   background-color: #fff565; }
