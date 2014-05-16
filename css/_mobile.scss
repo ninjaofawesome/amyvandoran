@@ -1,0 +1,82 @@
+ @media all and (max-width: 767px) and (min-width: 240px) {
+
+  .modalDialog{
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+  background-color: $lt-yellow;
+  position: absolute;
+  top: -2000px;
+  left: 15%;
+  z-index: 3;
+}
+
+.modalDialogBox {
+  position: relative;
+  top: 15%;
+  left: 10%;
+  z-index: 4;
+  width: 80%;
+}
+
+h1.big-white,
+h2.big-white,
+h3.big-white,
+h4.big-white,
+h5.big-white,
+h6.big-white {
+  color: $white;
+  text-shadow: -1px 0 $pink, 0 1px $pink, 1px 0 $pink, 0 -1px $pink;
+  font-size: 225%;
+  margin-left: 20%;
+}
+
+h1.blue,
+h2.blue,
+h3.blue,
+h4.blue,
+h5.blue,
+h6.blue {
+  color: $blue;
+  font-size: 85%;
+}
+
+.btn-primary-centered{
+  margin: 0 40%;
+}
+
+.btn {
+  background-color: $pink;
+  color: $white;
+  display: inline-block;
+  padding: 4px 9px;
+  margin-bottom: 0;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: none;
+}
+.btn:hover,
+.btn:focus {
+  background-color: $dk-pink;
+  color: $white;
+  text-decoration: none;
+  outline: none;
+}
+
+}

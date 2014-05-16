@@ -1,0 +1,154 @@
+//TYPE
+
+a {
+  color: $dk-gray;
+  text-decoration: none;
+  &:hover{
+     color: $lt-gray;
+     text-decoration: none;
+  }
+  &:visited{
+    color: $md-gray;
+  }
+}
+
+a.box {
+  color: $white;
+  &:hover{
+     color: $lt-gray;
+  }
+  &:visited{
+    color: $white;
+  }
+}
+
+
+p {
+  color: $md-gray;
+  font-size: 125%;
+  &.box{
+    color: $white;
+    font-size: 125%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $md-gray;
+  font-weight: 700;
+  font-family: 'neutraface titling', helvetica, arial, sans-serif;
+}
+
+.box {
+  color: $white;
+  font-weight: 700;
+  font-family: 'neutraface titling', helvetica, arial, sans-serif;
+}
+
+.navbar {
+  color: $dk-gray;
+  font-weight: 500;
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+}
+
+.big{
+  font-size: 300%;
+}
+
+.squished{
+  margin: 0;
+}
+
+.compact {
+  margin-bottom: 0;
+}
+
+.upper-compact {
+  margin-top: 0;
+}
+
+.blue {
+  color: $blue;
+}
+
+.yellow{
+  color: $dk-yellow;
+}
+
+.pink {
+  color: $pink;
+}
+
+.big-blue {
+  color: $blue;
+  font-size: 300%;
+}
+
+.big-yellow{
+  color: $dk-yellow;
+  font-size: 300%;
+}
+
+.big-pink {
+  color: $pink;
+  font-size: 300%;
+}
+
+.big-white {
+  color: $white;
+  text-shadow: -1px 0 $pink, 0 1px $pink, 1px 0 $pink, 0 -1px $pink;
+  font-size: 300%;
+}
+
+.centered{
+  text-align: center;
+}
+
+a.blue {
+  color: $blue;
+}
+
+
+a.yellow{
+  color: $lt-yellow;
+}
+
+
+a.pink {
+  color: $pink;
+}
+
+a.blue:hover{
+  color: $dk-blue;
+   text-decoration: none;
+}
+
+a.yellow:hover{
+  color: $dk-yellow;
+  text-decoration: none;
+}
+
+a.pink:hover{
+  color: $dk-pink;
+  text-decoration: none;
+}
+
+a.blue:visited{
+  color: $dk-blue;
+}
+
+a.yellow:visited{
+  color: $dk-yellow;
+}
+
+a.pink:visited{
+  color: $dk-pink;
+}
+
+.right-align {
+  text-align: right;
+}

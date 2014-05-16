@@ -1,0 +1,78 @@
+//NAVBAR
+.container-fluid {
+  margin: 0 auto;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: $white;
+  box-shadow: none;
+  border-color: none;
+  border: none;
+  // margin-bottom: 5px;
+  // height: 50px;
+
+}
+
+.navbar {
+  position: relative;
+  min-height: 30px;
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+
+.navbar-nav > li.yellow:hover {
+  background-color: $lt-yellow;
+}
+
+.navbar-nav > li.pink:hover {
+  background-color: $pink;
+}
+
+.navbar-nav > li.blue:hover {
+  background-color: $blue;
+}
+
+.navbar-default .navbar-collapse {
+  background-image: none;
+  background-color: $white;
+  box-shadow: none;
+  border-color: none;
+  border: none;
+  // margin-bottom: 5px;
+  // height: 50px;
+
+}
+.navbar-brand{
+  padding: 5px 15px;
+}
+
+.light {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+}
+
+.icon {
+  color: $md-gray;
+}
+
+.icons {
+  color: $md-gray;
+}
+
+.icons:hover {
+  transition: color .25s;
+  color: $blue;
+}

@@ -1,0 +1,21 @@
+//VARIABLES
+$white: #fff;
+$dk-gray: #999;
+$md-gray: #666;
+$lt-gray: #999;
+$pink: #ffcccc;
+$dk-pink: #FF949E;
+$blue: #77d9d3;
+$dk-blue: #70CCC6;
+$lt-yellow: #FFF565;
+$dk-yellow: #FFF019;
+
+@font-face {
+  font-family: 'neutraface titling';
+  src: url('../fonts/neutraface/neutra2displaybold.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'neutraface';
+  src: url('../fonts/neutraface/neutra2displaylight.ttf')  format('truetype') /* Safari, Android, iOS */
+}
