@@ -18,103 +18,120 @@
   </head>
 
     <body>
-    <nav class="navbar navbar-default" role="navigation">
+
+      <!-- Hi there!  If you're inspecting this, why don't you contact me?  email me at hey@hereshannahs.info or tweet at me at @hnsayshello, I'd love to hear from you.  Thanks for looking! -->
+
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><h1 class="header-bump">Amy Van Doran LOVE CLUB</h1></a>
-        </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="pink"><a href="about.html"><h3 class="light">About</h3></a></li>
-              <li class="yellow"><a href="rolodex.html"><h3 class="light">Rolodex</h3></a></li>
-              <li class="blue"><a href="services.html"><h3 class="light">Services</h3></a></li>
-              <li class="yellow"><a href="press.html"><h3 class="light">Press</h3></a></li>
-               <li class="pink"><a href="faq.html"><h3 class="light">FAQ</h3></a></li>
-              <li class="yellow"><a href=" http://loveclubblog.wordpress.com/" target="_blank"><h3 class="light">Blog</h3></a></li>
-            </ul>
+        <div class="navbar">
+          <a class="navbar-brand hidden-xs" href="#"><h2 class="navbar-font">Amy Van Doran's MODERN LOVE CLUB</h2></a>
+          <a class="navbar-brand visible-xs" href="#"><h2 class="navbar-font">MODERN LOVE CLUB</h2></a>
 
-             <ul class="nav navbar-nav pull-right">
-                <li class="header-spacing"><a href="mailto:julierolodex@gmail.com?subject=hello" target="_blank"><i class="fa icons fa-envelope-o fa-2x"></i></a></li>
-                <li class="header-spacing"><a href="http://instagram.com/amyvandoran" target="_blank"><i class="fa icons fa-instagram fa-2x"></i></a></li>
-                <li class="header-spacing"><a href="https://twitter.com/amyvandoran" target="_blank"><i class="fa icons fa-twitter-square fa-2x"></i></a></li>
-                <li class="header-spacing"><a href="https://www.facebook.com/pages/Amy-Van-Doran-Matchmaker/184677111594782" target="_blank"><i class="fa icons fa-facebook-square fa-2x"></i></a></li>
+          <ul class="navbar-nav hidden-xs">
+            <li class="nav-space pink hidden-xs"><a href="about.html"><h3 class="light">About</h3></a></li>
+            <li class="nav-space yellow hidden-xs"><a href="rolodex.html"><h3 class="light">Rolodex</h3></a></li>
+            <li class="nav-space blue hidden-xs"><a href="services.html"><h3 class="light">Services</h3></a></li>
+            <li class="nav-space yellow hidden-xs"><a href="press.html"><h3 class="light">Press</h3></a></li>
+             <li class="nav-space pink hidden-xs"><a href="faq.html"><h3 class="light">FAQ</h3></a></li>
+            <li class="nav-space yellow hidden-xs"><a href="http://loveclubblog.wordpress.com/" target="_blank"><h3 class="light">Blog</h3></a></li>
+          </ul>
+
+          <div class="btn-group right-side visible-xs">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              Services <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="about.html">About</a></li>
+              <li><a href="rolodex.html">Rolodex</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="faq.html">Press</a></li>
+              <li><a href="http://loveclubblog.wordpress.com/">Blog</a></li>
+              <li></li>
+              <li><a href="mailto:julierolodex@gmail.com?subject=hello" target="_blank"><i class="fa icons fa-envelope-o fa-2x"></i>&nbspContact</a></li>
+              <li><a href="http://instagram.com/amyvandoran" target="_blank"><i class="fa icons fa-instagram fa-2x"></i>&nbspInstagram</a></li>
+              <li><a href="https://twitter.com/amyvandoran" target="_blank"><i class="fa icons fa-twitter-square fa-2x"></i>&nbspTwitter</a></li>
+              <li><a href="https://www.facebook.com/pages/Amy-Van-Doran-Matchmaker/184677111594782" target="_blank"><i class="fa icons fa-facebook-square fa-2x"></i>&nbspFacebook</a></li>
             </ul>
           </div>
+
         </div>
-      </nav>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 carousel-styling">
+        <div class="row">
+          <div class="col-md-12 carousel-styling">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <a href="about.html"><img src="images/bad_date.png" alt="Amy Goes On Bad Dates So You Don't Have To"/></a>
+                  </div>
+                   <div class="item">
+                    <a href="rolodex.html"><img src="images/rolodex_of_love.png" alt="Amy's Love Rolodex"/></a>
+                  </div>
+                  <div class="item">
+                    <a href="rolodex.html"><img src="images/ice-cream-kisses.png" alt="NYC love!"/></a>
+                  </div>
+                </div>
 
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <a href="about.html"><img src="images/bad_date.png" alt="Amy Goes On Bad Dates So You Don't Have To"/></a>
-            </div>
-             <div class="item">
-              <a href="rolodex.html"><img src="images/rolodex_of_love.png" alt="Amy's Love Rolodex"/></a>
-            </div>
-            <div class="item">
-              <a href="rolodex.html"><img src="images/ice-cream-kisses.png" alt="NYC love!"/></a>
+                <!-- Controls (these ones are just invisible but they work!) -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
             </div>
           </div>
-
-          <!-- Controls (these ones are just invisible but they work!) -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
-      </div>
-    </div>
-
-
-  <div class="row">
-
-    <div class="col-md-4">
-      <div class="row">
-        <a href="rolodex.html">
-          <div class="col-md-12">
-            <img class="cupids row-vert-space" src="images/amy_nylon.png" alt="Amy Van Doran">
-            <h1 class="upper-compa big-bump-left">Get To Know Amy!</h1>
-          </a>
         </div>
-      </div>
-    </div>
-    <div class="col-md-8">
-      <h1 class="compact">In a city of 8.4 million, what you have is too many options.</h1>
-      <h2 class="no-margin-top">Enter Amy Van and her team. They get IT.</h2>
-        <p>Have them curate the experience of your life and clear out the static.We specialize in refining your love life. A little elitism is okay when it comes to your relationships. Outsource the search to the expert, so you focus on what's really important, love. </p>
-    </div>
-  </div>
 
 
+        <div class="row">
 
-
-    <!-- <div class="row">
-      <div class="col-md-12">
-        <div class="modalDialog">
-          <div class="modalDialogBox">
+          <div class="col-md-4">
             <div class="row">
-              <div class="col-md-6">
-                <h1 class="big-white">Welcome!</h1>
-                <h3 class="blue">Amy Van  Doran is the most interesting matchmaker in New York City, catering to a select crowd of creative people.  Get in Amy's Rolodex and meet your perfect match today!</h3>
-                <div class="btn btn-primary-centered">OK!</div>
+              <a href="rolodex.html">
+                <div class="col-md-12">
+                  <img class="cupids row-vert-space" src="images/amy_nylon.png" alt="Amy Van Doran">
+                  <h1 class="upper-compact amy-title-bump-left">Click Here</h1>
+                  <h1 class="upper-compact big-bump-left">To Get To Know Amy!</h1>
+                </a>
               </div>
             </div>
           </div>
+          <div class="col-md-8 row-vert-space">
+            <h1 class="compact big">In a city of 8.4 million, what you have is too many options.</h1>
+            <h1 class="upper-compact">Enter Amy Van and her team. They get IT.</h1>
+            <p>Have them curate the experience of your life and clear out the static.We specialize in refining your love life. A little elitism is okay when it comes to your relationships. Outsource the search to the expert, so you focus on what's really important, love. </p>
+          </div>
+
         </div>
+
+        <div class="row">
+          <div class="col-md-12 footer">
+            <span>
+              <p class="footer-bump inline-type"><a class="footer-link" href="http://hereshannahs.info/">Made with love in Brooklyn by This Gal</a></p>
+              <p class="right-side-text hidden-xs inline-type">2014 AVDConsulting</p>
+            </span>
+          </div>
+        </div>
+
+          <!-- <div class="row">
+            <div class="col-md-12">
+              <div class="modalDialog">
+                <div class="modalDialogBox">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h1 class="big-white">Welcome!</h1>
+                      <h3 class="blue">Amy Van  Doran is the most interesting matchmaker in New York City, catering to a select crowd of creative people.  Get in Amy's Rolodex and meet your perfect match today!</h3>
+                      <div class="btn btn-primary-centered">OK!</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          </div>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="bootstrap-3.1.1-dist/js/bootstrap.js"></script>
+            <script src="js/jquery.cookie.js"></script>
+            <script src="js/popup.js"></script>
       </div>
-    </div> -->
-
-    </div>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="bootstrap-3.1.1-dist/js/bootstrap.js"></script>
-      <script src="js/jquery.cookie.js"></script>
-      <script src="js/popup.js"></script>
-
-    </div>
     </body>
   </html>

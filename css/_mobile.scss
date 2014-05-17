@@ -1,6 +1,7 @@
  @media all and (max-width: 767px) and (min-width: 240px) {
 
-  .modalDialog{
+//MODAL
+.modalDialog{
   width: 350px;
   height: 350px;
   border-radius: 175px;
@@ -19,24 +20,16 @@
   width: 80%;
 }
 
-h1.big-white,
-h2.big-white,
-h3.big-white,
-h4.big-white,
-h5.big-white,
-h6.big-white {
+//WORDS
+
+.big-white {
   color: $white;
   text-shadow: -1px 0 $pink, 0 1px $pink, 1px 0 $pink, 0 -1px $pink;
   font-size: 225%;
   margin-left: 20%;
 }
 
-h1.blue,
-h2.blue,
-h3.blue,
-h4.blue,
-h5.blue,
-h6.blue {
+.blue {
   color: $blue;
   font-size: 85%;
 }
@@ -45,8 +38,9 @@ h6.blue {
   margin: 0 40%;
 }
 
+//BUTTONS
 .btn {
-  background-color: $pink;
+  background-color: $blue;
   color: $white;
   display: inline-block;
   padding: 4px 9px;
@@ -69,14 +63,23 @@ h6.blue {
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus {
+  background-color: $dk-blue;
+  color: $white;
   outline: none;
 }
 .btn:hover,
-.btn:focus {
-  background-color: $dk-pink;
+.btn:focus
+.btn:visited {
+  background-color: $dk-blue;
   color: $white;
   text-decoration: none;
   outline: none;
+}
+
+//IMAGES
+.about-images{
+  display:inline-block;
+  margin: 0 25%;
 }
 
 }

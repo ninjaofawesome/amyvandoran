@@ -1,38 +1,31 @@
 //NAVBAR
-.container-fluid {
-  margin: 0 auto;
-}
 
-.navbar-default {
-  background-image: none;
-  background-color: $white;
-  box-shadow: none;
-  border-color: none;
-  border: none;
-  // margin-bottom: 5px;
-  // height: 50px;
 
-}
+// .navbar-default {
+//   background-image: none;
+//   background-color: $white;
+//   box-shadow: none;
+//   border-color: none;
+//   border: none;
+//   // margin-bottom: 5px;
+//   // height: 50px;
 
-.navbar {
-  position: relative;
-  min-height: 30px;
-  margin-bottom: 0;
-  border: none;
-}
+// }
 
-.navbar-collapse {
-  max-height: 340px;
-  padding-right: 15px;
-  padding-left: 15px;
-  overflow-x: visible;
-  -webkit-overflow-scrolling: touch;
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
-}
-.navbar-collapse.in {
-  overflow-y: auto;
-}
+
+
+// .navbar-collapse {
+//   max-height: 340px;
+//   padding-right: 15px;
+//   padding-left: 15px;
+//   overflow-x: visible;
+//   -webkit-overflow-scrolling: touch;
+//   border-top: 1px solid transparent;
+//   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+// }
+// .navbar-collapse.in {
+//   overflow-y: auto;
+// }
 
 .navbar-nav > li.yellow:hover {
   background-color: $lt-yellow;
@@ -46,18 +39,61 @@
   background-color: $blue;
 }
 
-.navbar-default .navbar-collapse {
-  background-image: none;
-  background-color: $white;
-  box-shadow: none;
-  border-color: none;
+.navbar {
+  position: relative;
+  min-height: 30px;
+  margin-bottom: 0;
   border: none;
-  // margin-bottom: 5px;
-  // height: 50px;
+}
+
+.navbar-brand{
+  padding: 0 15px;
+  margin-bottom: 10px;
 
 }
-.navbar-brand{
-  padding: 5px 15px;
+
+.navbar-font {
+  font-size: 24px;
+}
+
+.navbar-nav {
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 568px) and (max-width: 1023px){
+  .navbar-brand{
+    padding: 0 10px;
+    margin-bottom: 7px;
+  }
+
+  .navbar-font {
+  font-size: 18px;
+}
+
+}
+
+@media screen and (min-width: 240px) and (max-width: 567px){
+  .navbar-brand{
+    padding: 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .navbar-font {
+  font-size: 16px;
+}
+
+  .right-side{
+    margin-top: 7px;
+    float: right;
+  }
+
+  .dropdown-menu {
+    top: 40px;
+    left: -50px;
+  }
+
+
+
 }
 
 .light {

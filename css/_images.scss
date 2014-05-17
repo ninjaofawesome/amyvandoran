@@ -1,11 +1,7 @@
 //IMAGES
 
-.jumbotron{
-  background-color: $blue;
-}
-
 .cupid {
-  margin-top: 20px;
+  // margin: 20px auto;
   width: 200px;
   height: 200px;
   border-radius: 100px;
@@ -28,4 +24,9 @@
   border-radius: 100px;
   border: 2px solid $lt-gray;
   margin-left: 22%;
+}
+
+.about-images{
+  display:inline-block;
+  margin: 0 25%;
 }
