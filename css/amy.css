@@ -133,7 +133,15 @@ body {
     margin-bottom: 7px; }
 
   .navbar-font {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .right-side {
+    margin-top: 7px;
+    float: right; }
+
+  .dropdown-menu {
+    top: 40px;
+    left: -50px; } }
 @media screen and (min-width: 240px) and (max-width: 567px) {
   .navbar-brand {
     padding: 0 5px;
@@ -208,7 +216,15 @@ body {
     margin-bottom: 7px; }
 
   .navbar-font {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .right-side {
+    margin-top: 7px;
+    float: right; }
+
+  .dropdown-menu {
+    top: 40px;
+    left: -50px; } }
 @media screen and (min-width: 240px) and (max-width: 567px) {
   .navbar-brand {
     padding: 0 5px;
@@ -408,9 +424,9 @@ a.pink:visited {
     text-shadow: -1px 0 #ffcccc, 0 1px #ffcccc, 1px 0 #ffcccc, 0 -1px #ffcccc;
     font-size: 225%; }
 
-  .blue {
-    color: #77d9d3;
-    font-size: 85%; }
+  .centered {
+    text-align: center;
+    margin-left: 25%; }
 
   .btn-primary-centered {
     margin: 0 25%; }
@@ -449,7 +465,17 @@ a.pink:visited {
 
   .about-images {
     display: inline-block;
-    margin: 0 37.5%; } }
+    margin: 0 37.5%; }
+
+  .cupid {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid #999999;
+    margin: 0 12.5%; }
+
+  .services-container {
+    display: inline; } }
 @media all and (min-width: 240px) and (max-width: 767px) {
   .modalDialog {
     width: 350px;
@@ -474,9 +500,9 @@ a.pink:visited {
     font-size: 225%;
     margin-left: 20%; }
 
-  .blue {
-    color: #77d9d3;
-    font-size: 85%; }
+  .centered {
+    text-align: center;
+    margin-left: 25%; }
 
   .btn-primary-centered {
     margin: 0 40%; }
@@ -528,7 +554,29 @@ a.pink:visited {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 2px solid #999999; } }
+    border: 2px solid #999999; }
+
+  .cupid {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #999999;
+    margin: 0 37.5%; }
+
+  .xshide {
+    cursor: pointer; }
+
+  #xs1,
+  #xs2,
+  #xs3,
+  #xs4,
+  #xs5,
+  #xs6,
+  #xs7,
+  #xs8,
+  #xs9,
+  #xs10 {
+    cursor: pointer; } }
 .footer {
   border-top: 1px solid #ffcccc;
   padding-top: 5px;

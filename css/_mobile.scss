@@ -21,7 +21,6 @@
 }
 
 //WORDS
-
 .big-white {
   color: $white;
   text-shadow: -1px 0 $pink, 0 1px $pink, 1px 0 $pink, 0 -1px $pink;
@@ -29,16 +28,16 @@
   margin-left: 20%;
 }
 
-.blue {
-  color: $blue;
-  font-size: 85%;
+.centered {
+  text-align: center;
+  margin-left: 25%;
 }
 
+//BUTTONS
 .btn-primary-centered{
   margin: 0 40%;
 }
 
-//BUTTONS
 .btn {
   background-color: $blue;
   color: $white;
@@ -94,7 +93,33 @@
   border: 2px solid $lt-gray;
 }
 
-//forms
+.cupid {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid $lt-gray;
+  margin: 0 37.5%;
+}
+
+//FAQ
+
+.xshide{
+  cursor: pointer;
+}
+
+#xs1,
+#xs2,
+#xs3,
+#xs4,
+#xs5,
+#xs6,
+#xs7,
+#xs8,
+#xs9,
+#xs10 {
+  cursor: pointer;
+}
+
 
 
 }

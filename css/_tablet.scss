@@ -26,9 +26,9 @@
   font-size: 225%;
 }
 
-.blue {
-  color: $blue;
-  font-size: 85%;
+.centered {
+  text-align: center;
+  margin-left: 25%;
 }
 
 //BUTTONS
@@ -76,7 +76,19 @@
   margin: 0 37.5%;
 }
 
-//forms:
+.cupid {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 2px solid $lt-gray;
+  margin: 0 12.5%;
+}
+
+//SERVICES PAGE
+
+.services-container {
+  display: inline;
+}
 
 
 
