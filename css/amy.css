@@ -53,6 +53,12 @@ body {
 .no-margin-top {
   margin-top: 0; }
 
+.no-margin-bottom {
+  margin-bottom: 0; }
+
+.rolodex-header-spacing {
+  margin-top: 20%; }
+
 .no-pad {
   padding: 0; }
 
@@ -61,6 +67,9 @@ body {
 
 .footer-bump {
   margin-left: 10px; }
+
+.about-images-rolodex {
+  margin: 0 15%; }
 
 .ten-bump {
   margin-left: 10px; }
@@ -164,6 +173,9 @@ body {
 .carousel-control.right,
 .carousel-control.left {
   background-image: none; }
+
+.rolodex-container {
+  height: 200px; }
 
 .navbar-nav > li.yellow:hover {
   background-color: #fff565; }
@@ -348,6 +360,12 @@ a.pink:visited {
   border-radius: 100px;
   border: 2px solid #999999; }
 
+.rolodex-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  border: 2px solid #999999; }
+
 .julie-cupid {
   margin: 20px 0 0 20px;
   width: 200px;
@@ -432,7 +450,7 @@ a.pink:visited {
   .about-images {
     display: inline-block;
     margin: 0 37.5%; } }
-@media all and (max-width: 767px) and (min-width: 240px) {
+@media all and (min-width: 240px) and (max-width: 767px) {
   .modalDialog {
     width: 350px;
     height: 350px;
@@ -500,7 +518,17 @@ a.pink:visited {
 
   .about-images {
     display: inline-block;
-    margin: 0 25%; } }
+    margin: 0 25%; }
+
+  .about-images-rolodex {
+    display: inline-block;
+    margin: 0 55%; }
+
+  .rolodex-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid #999999; } }
 .footer {
   border-top: 1px solid #ffcccc;
   padding-top: 5px;
@@ -514,3 +542,11 @@ a.footer-link {
 
 .inline-type {
   display: inline; }
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll; }
+
+.mmproRegistrationFormBox {
+  height: 60%;
+  width: 100%; }

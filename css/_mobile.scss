@@ -1,4 +1,4 @@
- @media all and (max-width: 767px) and (min-width: 240px) {
+ @media all and (min-width: 240px) and (max-width: 767px)  {
 
 //MODAL
 .modalDialog{
@@ -81,5 +81,20 @@
   display:inline-block;
   margin: 0 25%;
 }
+
+.about-images-rolodex{
+  display:inline-block;
+  margin: 0 55%;
+}
+
+.rolodex-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid $lt-gray;
+}
+
+//forms
+
 
 }
