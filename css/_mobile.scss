@@ -30,7 +30,11 @@
 
 .centered {
   text-align: center;
-  margin-left: 25%;
+}
+
+.center {
+  text-align: center;
+  margin: 0 25%;
 }
 
 //BUTTONS
@@ -98,7 +102,7 @@
   height: 100px;
   border-radius: 50px;
   border: 2px solid $lt-gray;
-  margin: 0 37.5%;
+  margin: 0 25%;
 }
 
 //FAQ
@@ -120,6 +124,10 @@
   cursor: pointer;
 }
 
+//SPACING
 
+.row-vert-space{
+  margin-top: 10px;
+}
 
 }
