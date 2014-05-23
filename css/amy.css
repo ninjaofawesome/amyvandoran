@@ -418,38 +418,61 @@ a.pink:visited {
   margin-left: 2em;
   text-align: center; }
 
-.btn-default {
-  color: white;
+.btn {
   background-color: #77d9d3;
-  border-color: none;
-  text-shadow: none;
-  background-image: none; }
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default {
   color: white;
-  background-color: #ffcccc;
-  border-color: #ffcccc; }
+  display: inline-block;
+  padding: 4px 9px;
+  margin-bottom: 0;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: none; }
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  background-color: #70ccc6;
+  color: white;
+  outline: none; }
+
+.btn:hover,
+.btn:focus
+.btn:visited {
+  background-color: #70ccc6;
+  color: white;
+  text-decoration: none;
+  outline: none; }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
-  .modalDialog {
-    width: 350px;
-    height: 350px;
-    border-radius: 175px;
-    background-color: #fff565;
-    position: absolute;
-    top: -1250px;
-    left: 35%;
-    z-index: 3; }
-
-  .modalDialogBox {
+  .modal-content {
     position: relative;
-    top: 15%;
-    left: 30%;
-    z-index: 4; }
+    background-color: #fff565;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 9.375em;
+    outline: none;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); }
+
+  .bounding-box {
+    width: 14.0625em;
+    height: 14.0625em;
+    margin-top: 3.375em;
+    margin-left: 1.5em;
+    text-align: center; }
 
   .big-white {
     color: white;
@@ -511,22 +534,25 @@ a.pink:visited {
   .about-images-rolodex {
     display: inline-block; } }
 @media all and (min-width: 240px) and (max-width: 767px) {
-  .modalDialog {
-    width: 350px;
-    height: 350px;
-    border-radius: 175px;
-    background-color: #fff565;
-    position: absolute;
-    top: -2000px;
-    left: 15%;
-    z-index: 3; }
-
-  .modalDialogBox {
+  .modal-content {
     position: relative;
-    top: 15%;
-    left: 10%;
-    z-index: 4;
-    width: 80%; }
+    background-color: #fff565;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 6.25em;
+    outline: none;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); }
+
+  .bounding-box {
+    width: 9.375em;
+    height: 9.375em;
+    margin-top: 2.25em;
+    margin-left: 1em;
+    text-align: center; }
 
   .big-white {
     color: white;

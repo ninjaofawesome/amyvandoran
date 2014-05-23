@@ -1,22 +1,26 @@
  @media all and (max-width: 1024px) and (min-width: 768px) {
 
 //MODAL
-.modalDialog{
-  width: 350px;
-  height: 350px;
-  border-radius: 175px;
+.modal-content {
+  position: relative;
   background-color: $lt-yellow;
-  position: absolute;
-  top: -1250px;
-  left: 35%;
-  z-index: 3;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  width: 18.75em;
+  height: 18.75em;
+  border-radius: 9.375em;
+  outline: none;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
 
-.modalDialogBox {
-  position: relative;
-  top: 15%;
-  left: 30%;
-  z-index: 4;
+.bounding-box {
+  width: 14.0625em;
+  height: 14.0625em;
+  margin-top: 3.375em;
+  margin-left: 1.5em;
+  text-align: center;
 }
 
 //WORDS
