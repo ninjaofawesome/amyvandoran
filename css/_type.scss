@@ -26,6 +26,10 @@ a.box {
 p {
   color: $md-gray;
   font-size: 125%;
+  -moz-font-weight: 500;
+  -webkit-font-weight: 500;
+  -o-font-weight: 500;
+  font-weight: 500;
   &.box{
     color: $white;
     font-size: 125%;
