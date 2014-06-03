@@ -17,6 +17,7 @@
   min-height: 30px;
   margin-bottom: 0;
   border: none;
+
 }
 
 .navbar-brand{
@@ -31,6 +32,7 @@
 
 .navbar-nav {
   padding-left: 10px;
+  list-style-type: none;
 }
 
 @media screen and (min-width: 568px) and (max-width: 1023px){
