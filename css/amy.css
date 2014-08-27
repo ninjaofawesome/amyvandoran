@@ -109,11 +109,16 @@ body {
   padding: 0 15px;
   margin-bottom: 10px; }
 
+.navbar-images {
+  margin-bottom: 12px; }
+
 .navbar-font {
-  font-size: 24px; }
+  font-size: 24px;
+  display: inline-block; }
 
 .navbar-nav {
-  padding-left: 10px; }
+  padding-left: 10px;
+  list-style-type: none; }
 
 @media screen and (min-width: 568px) and (max-width: 1023px) {
   .navbar-brand {
@@ -192,11 +197,16 @@ body {
   padding: 0 15px;
   margin-bottom: 10px; }
 
+.navbar-images {
+  margin-bottom: 12px; }
+
 .navbar-font {
-  font-size: 24px; }
+  font-size: 24px;
+  display: inline-block; }
 
 .navbar-nav {
-  padding-left: 10px; }
+  padding-left: 10px;
+  list-style-type: none; }
 
 @media screen and (min-width: 568px) and (max-width: 1023px) {
   .navbar-brand {
