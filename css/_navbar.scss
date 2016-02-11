@@ -1,96 +1,160 @@
 //NAVBAR
 
-.navbar-nav > li.yellow:hover {
-  background-color: $lt-yellow;
+.nav-container{
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: $white;
+  color: $md-gray;
+  z-index: 10;
 }
 
-.navbar-nav > li.pink:hover {
-  background-color: $pink;
-}
-
-.navbar-nav > li.blue:hover {
-  background-color: $blue;
-}
-
-.navbar {
-  position: relative;
-  min-height: 30px;
-  margin-bottom: 0;
-  border: none;
-
-}
-
-.navbar-brand{
-  padding: 0 15px;
-  margin-bottom: 10px;
-
-}
-
-.navbar-images{
-  margin-bottom: 12px;
-}
-
-.navbar-font {
-  font-size: 24px;
-  display: inline-block;
-}
-
-.navbar-nav {
-  padding-left: 10px;
+.branding,
+.brand-item,
+.nav-links,
+.nav-link-item,
+.contact-list,
+.contact-item{
+  display: inline;
   list-style-type: none;
 }
 
-@media screen and (min-width: 568px) and (max-width: 1023px){
-  .navbar-brand{
-    padding: 0 10px;
-    margin-bottom: 7px;
-  }
-
-  .navbar-font {
-  font-size: 18px;
+.title {
+  position: absolute;
+  top: -25px;
+  left: 45px;
+  width: 100%
 }
 
- .right-side{
-    margin-top: 7px;
-    float: right;
+.nav-img{
+  float: left;
+}
+
+.brand-item{
+  padding: 0 5px;
+}
+
+.nav-links {
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.nav-link-item {
+  padding: 15px 2.5px 10px 2.5px;
+  font-size: 1.25em;
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  &.blue{
+    &:hover, &:active, &:focus{
+      color: $white;
+      background-color: $blue;
+    }
+    &:visited{
+      color: $md-gray;
+      background-color: transparent;
+    }
+  }
+  &.yellow{
+    &:hover, &:active, &:focus{
+      color: $white;
+      background-color: $lt-yellow;
+    }
+    &:visited{
+      color: $md-gray;
+      background-color: transparent;
+    }
+  }
+  &.pink {
+    &:hover, &:active, &:focus{
+      color: $white;
+      background-color: $pink;
+    }
+    &:visited{
+      color: $md-gray;
+      background-color: transparent;
+    }
+  }
+}
+
+.nav-highlight {
+  color: $md-gray;
+  padding: 10px 5px;
+}
+
+
+.contact-item {
+  padding: 5px;
+  margin-top: 2px;
+  font-size: 1.75em;
+  &.blue{
+    &:hover, &:active, &:focus{
+      color: $blue;
+    }
+    &:visited{
+      color: $md-gray;
+    }
+  }
+  &.yellow{
+    &:hover, &:active, &:focus{
+      color: $lt-yellow;
+    }
+    &:visited{
+      color: $md-gray;
+    }
+  }
+  &.pink {
+    &:hover, &:active, &:focus{
+      color: $pink;
+    }
+    &:visited{
+      color: $md-gray;
+    }
+  }
+}
+
+.body-container{
+  z-index: 0;
+  margin-top: 60px;
+}
+
+
+
+@media screen and (min-width: 568px) and (max-width: 1023px){
+
+  .title {
+    display: none;
   }
 
-  .dropdown-menu {
-    top: 40px;
-    left: -50px;
+  .nav-links{
+    display: none;
+  }
+
+  .contact-list {
+    position: absolute;
+    top: -25px;
+    right: 0;
   }
 
 }
 
 @media screen and (min-width: 240px) and (max-width: 567px){
-  .navbar-brand{
-    padding: 0 5px;
-    margin-bottom: 5px;
+
+  .title {
+    display: none;
+  }
+  .nav-links{
+    display: none;
   }
 
-  .navbar-font {
-  font-size: 16px;
-}
-
-  .right-side{
-    margin-top: 7px;
-    float: right;
-  }
-
-  .dropdown-menu {
-    top: 40px;
-    left: -50px;
+  .contact-list {
+    position: absolute;
+    top: -25px;
+    right: 0;
   }
 
 }
 
-.light {
-  font-family: 'neutraface', helvetica, arial, sans-serif;
-}
-
-.icon {
-  color: $md-gray;
-}
 
 .icons {
   color: $md-gray;
