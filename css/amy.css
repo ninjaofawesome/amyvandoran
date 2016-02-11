@@ -372,6 +372,9 @@ a.pink:visited {
 .right-align {
   text-align: right; }
 
+.navbar-brand > img {
+  display: inline-block; }
+
 .cupid {
   width: 200px;
   height: 200px;
