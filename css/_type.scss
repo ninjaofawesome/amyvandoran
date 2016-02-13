@@ -44,19 +44,23 @@ h5,
 h6 {
   color: $md-gray;
   font-weight: 700;
-  font-family: 'neutraface titling', helvetica, arial, sans-serif;
+  font-family: $neutraface;
 }
 
 .box {
   color: $white;
   font-weight: 700;
-  font-family: 'neutraface titling', helvetica, arial, sans-serif;
+  font-family: $neutraface;
 }
 
 .navbar {
   color: $dk-gray;
-  font-weight: 500;
-  font-family: 'neutraface', helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-family: $neutraface;
+}
+
+.icon{
+  font-weight: 400;
 }
 
 .big{
