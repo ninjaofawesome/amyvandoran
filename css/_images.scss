@@ -3,6 +3,23 @@
   display: inline-block;
 }
 
+.index-img{
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  @include breakpoint(tablet){
+    width: 300px;
+  }
+  @include breakpoint(mobile){
+    width: 250px;
+  }
+  @include breakpoint(iphone){
+    width: 250px;
+  }
+
+}
+
 .cupid {
   // margin: 20px auto;
   width: 200px;
