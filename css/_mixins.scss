@@ -1,0 +1,33 @@
+//for breakpoint specific views
+@mixin breakpoint($point) {
+  @if $point == iphone {
+    @media all and (max-width: $screen-xxs-max) { @content; }
+  }
+  @else if $point == mobile {
+    @media all and (min-width: $screen-xs) and (max-width: $screen-xs-max) {
+      @content;
+    }
+  }
+  @else if $point == tablet {
+    @media all and (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+      @content;
+    }
+  }
+  @else if $point == desktop {
+    @media all and (min-width: $screen-md) and (max-width: $screen-md-max) {
+      @content;
+    }
+  }
+  @else if $point == large {
+    @media all and (min-width: $screen-lg) {
+      @content;
+    }
+  }
+}
+
+@mixin link-transition($time){
+  -webkit-transition: all $time ease-out;
+  -moz-transition: all $time ease-out;
+  -o-transition: all $time ease-out;
+  transition: all $time ease-out;
+}

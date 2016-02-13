@@ -10,6 +10,11 @@
   z-index: 10;
 }
 
+.body-container{
+  z-index: 0;
+  margin-top: 60px;
+}
+
 .branding,
 .brand-item,
 .nav-links,
@@ -24,7 +29,17 @@
   position: absolute;
   top: -25px;
   left: 45px;
-  width: 100%
+  width: 100%;
+  @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(mobile){
+    display: none;
+  }
+  @include breakpoint(iphone){
+    display: none;
+  }
+
 }
 
 .nav-img{
@@ -36,17 +51,29 @@
 }
 
 .nav-links {
+  @include link-transition(500ms);
   height: 50px;
   line-height: 50px;
+  @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(mobile){
+    display: none;
+  }
+  @include breakpoint(iphone){
+    display: none;
+  }
 }
 
 
 .nav-link-item {
+  @include link-transition(500ms);
   padding: 15px 2.5px 10px 2.5px;
   font-size: 1.25em;
   font-family: 'neutraface', helvetica, arial, sans-serif;
   &.blue{
     &:hover, &:active, &:focus{
+      text-decoration: none;
       color: $white;
       background-color: $blue;
     }
@@ -57,16 +84,19 @@
   }
   &.yellow{
     &:hover, &:active, &:focus{
+      text-decoration: none;
       color: $white;
       background-color: $lt-yellow;
     }
     &:visited{
+      text-decoration: none;
       color: $md-gray;
       background-color: transparent;
     }
   }
   &.pink {
     &:hover, &:active, &:focus{
+      text-decoration: none;
       color: $white;
       background-color: $pink;
     }
@@ -80,6 +110,25 @@
 .nav-highlight {
   color: $md-gray;
   padding: 10px 5px;
+}
+
+.contact-list {
+  @include breakpoint(tablet){
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+  @include breakpoint(mobile){
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+  @include breakpoint(iphone){
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+
 }
 
 
@@ -113,54 +162,11 @@
   }
 }
 
-.body-container{
-  z-index: 0;
-  margin-top: 60px;
-}
-
-
-
-@media screen and (min-width: 568px) and (max-width: 1023px){
-
-  .title {
-    display: none;
-  }
-
-  .nav-links{
-    display: none;
-  }
-
-  .contact-list {
-    position: absolute;
-    top: -25px;
-    right: 0;
-  }
-
-}
-
-@media screen and (min-width: 240px) and (max-width: 567px){
-
-  .title {
-    display: none;
-  }
-  .nav-links{
-    display: none;
-  }
-
-  .contact-list {
-    position: absolute;
-    top: -25px;
-    right: 0;
-  }
-
-}
-
-
 .icons {
   color: $md-gray;
+  &:hover, &:active, &:focus{
+    @include link-transition(500ms);
+    color: $blue;
+  }
 }
 
-.icons:hover {
-  transition: color .25s;
-  color: $blue;
-}
