@@ -510,17 +510,17 @@ a.pink:visited {
 .index-img {
   display: block;
   margin: 0 auto;
-  width: 400px;
-  height: auto; }
+  height: 400px;
+  width: auto; }
   @media all and (min-width: 768px) and (max-width: 991px) {
     .index-img {
-      width: 300px; } }
+      height: 300px; } }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .index-img {
-      width: 250px; } }
+      height: 250px; } }
   @media all and (max-width: 479px) {
     .index-img {
-      width: 250px; } }
+      height: 250px; } }
 
 .cupid {
   width: 200px;

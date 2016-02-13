@@ -6,16 +6,16 @@
 .index-img{
   display: block;
   margin: 0 auto;
-  width: 400px;
-  height: auto;
+  height: 400px;
+  width: auto;
   @include breakpoint(tablet){
-    width: 300px;
+    height: 300px;
   }
   @include breakpoint(mobile){
-    width: 250px;
+    height: 250px;
   }
   @include breakpoint(iphone){
-    width: 250px;
+    height: 250px;
   }
 
 }
