@@ -1,15 +1,13 @@
-$(document).ready(function(){
-  console.log('popup has loaded');
-    if($.cookie('msg') == null)
-        {
-            $('#myModal').modal('show');
-            $.cookie('msg', 'str');
-        }else{
-            $("div#myModal.modal").css('display','none');
-        }
-
-  // $('#myModal').modal('show');
+(function(){
+  var btn = document.getElementsByClassName("mobile-info");
+  var mMenu = document.getElementsByClassName("mobile-menu");
 
 
-});
+  $(mMenu).hide();
+
+  $(btn).click(function(){
+    $(mMenu).slideToggle(750);
+  });
+
+})();
 

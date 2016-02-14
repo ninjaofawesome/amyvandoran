@@ -15,6 +15,10 @@
   margin-top: 60px;
 }
 
+.nav-row{
+  position: relative;
+}
+
 .branding,
 .brand-item,
 .nav-links,
@@ -117,19 +121,13 @@
 
 .contact-list {
   @include breakpoint(tablet){
-    position: absolute;
-    top: -25px;
-    right: 0;
+    display: none;
   }
   @include breakpoint(mobile){
-    position: absolute;
-    top: -25px;
-    right: 0;
+    display: none;
   }
   @include breakpoint(iphone){
-    position: absolute;
-    top: -25px;
-    right: 0;
+    display: none;
   }
 
 }
@@ -163,6 +161,15 @@
       color: $md-gray;
     }
   }
+  @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(mobile){
+    display: none;
+  }
+  @include breakpoint(iphone){
+    display: none;
+  }
 }
 
 .icons {
@@ -172,4 +179,60 @@
     color: $blue;
   }
 }
+
+.mobile-info,
+.mobile-menu{
+  position: absolute;
+  @include breakpoint(large){
+    display: none;
+  }
+  @include breakpoint(desktop){
+    display: none;
+  }
+}
+
+.mobile-info{
+  top: -15px;
+  right: 5px;
+  background-color: $blue;
+  color: $white;
+  border: 1px solid $blue;
+  &:hover, &:active, &:focus{
+    @include link-transition(500ms);
+    text-decoration: none;
+    color: $blue;
+    background-color: $white;
+  }
+}
+
+.mobile-menu{
+  top: 25px;
+  right: 5px;
+  background-color: $white;
+  color: $md-gray;
+  width: 200px;
+  height: auto;
+}
+
+.m-item{
+  list-style-type: none;
+  color: $md-gray;
+  text-align: center;
+  padding: 2.5px 0;
+  font-size: 1.25em;
+  border-bottom: 0.5px solid $md-gray;
+  &:last-of-type{
+    border-bottom:none;
+  }
+  &:hover, &:active, &:focus{
+    @include link-transition(500ms);
+    text-decoration: none;
+    color: $blue;
+  }
+}
+
+
+
+
+
 
