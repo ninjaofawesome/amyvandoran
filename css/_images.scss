@@ -56,6 +56,15 @@
 .about-images{
   display:inline-block;
   margin: 0 25%;
+  @include breakpoint(tablet){
+    margin: 0 37.5%;
+  }
+  @include breakpoint(mobile){
+    margin: 0 37.5%;
+  }
+  @include breakpoint(iphone){
+    margin: 0 25%;
+  }
 }
 
 .about-images-rolodex{
