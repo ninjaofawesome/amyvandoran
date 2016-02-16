@@ -199,6 +199,7 @@
   border: 1px solid $blue;
   &:hover, &:active, &:focus{
     @include link-transition(500ms);
+    outline: 0;
     text-decoration: none;
     color: $blue;
     background-color: $white;
@@ -212,12 +213,16 @@
   color: $md-gray;
   width: 200px;
   height: auto;
+  padding: 0;
+  border: 0.5px solid $md-gray;
 }
 
 .m-item{
   list-style-type: none;
   color: $md-gray;
   text-align: center;
+  width: 200px;
+  height: auto;
   padding: 2.5px 0;
   font-size: 1.25em;
   border-bottom: 0.5px solid $md-gray;
@@ -227,7 +232,25 @@
   &:hover, &:active, &:focus{
     @include link-transition(500ms);
     text-decoration: none;
-    color: $blue;
+  }
+  &:nth-child(1),
+  &:nth-child(4),
+  &:nth-child(7){
+    &:hover, &:active, &:focus{
+      background-color: $blue;
+    }
+  }
+  &:nth-child(2),
+   &:nth-child(5),{
+    &:hover, &:active, &:focus{
+      background-color: $lt-yellow;
+    }
+  }
+  &:nth-child(3),
+  &:nth-child(6){
+    &:hover, &:active, &:focus{
+      background-color: $pink;
+    }
   }
 }
 
