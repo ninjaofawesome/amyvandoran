@@ -592,6 +592,12 @@ h6 {
 .rolodex-centered {
   padding-left: 15px;
   text-align: center; }
+  @media all and (min-width: 1200px) {
+    .rolodex-centered {
+      padding-left: 20px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .rolodex-centered {
+      padding-left: 20px; } }
 
 .big {
   font-size: 300%; }
