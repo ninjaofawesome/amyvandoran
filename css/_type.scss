@@ -96,6 +96,22 @@ h6 {
   text-align: center;
 }
 
+.about-p{
+  @include breakpoint(tablet){
+    padding: 1% 2.5%;
+    text-align: justify;
+  }
+  @include breakpoint(mobile){
+    padding: 1% 2.5%;
+    text-align: justify;
+  }
+  @include breakpoint(iphone){
+    padding: 1% 2.5%;
+    text-align: justify;
+  }
+
+}
+
 .big{
   font-size: 300%;
 }
@@ -137,6 +153,15 @@ h6 {
 .big-pink {
   color: $pink;
   font-size: 300%;
+  @include breakpoint(tablet){
+   text-align: center;
+  }
+  @include breakpoint(mobile){
+   text-align: center;
+  }
+  @include breakpoint(iphone){
+   text-align: center;
+  }
 }
 
 .big-white {

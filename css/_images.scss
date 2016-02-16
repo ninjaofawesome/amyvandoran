@@ -19,7 +19,6 @@
   }
 
 }
-
 .cupid {
   // margin: 20px auto;
   width: 200px;
@@ -55,15 +54,12 @@
 
 .about-images{
   display:inline-block;
-  margin: 0 25%;
-  @include breakpoint(tablet){
-    margin: 0 37.5%;
-  }
+  margin: 2.5% 25%;
   @include breakpoint(mobile){
-    margin: 0 37.5%;
+    margin: 2.5% 37.5%;
   }
   @include breakpoint(iphone){
-    margin: 0 25%;
+    margin: 2.5% 25%;
   }
 }
 

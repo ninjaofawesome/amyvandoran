@@ -599,6 +599,19 @@ h6 {
     .rolodex-centered {
       padding-left: 20px; } }
 
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .about-p {
+    padding: 1% 2.5%;
+    text-align: justify; } }
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .about-p {
+    padding: 1% 2.5%;
+    text-align: justify; } }
+@media all and (max-width: 479px) {
+  .about-p {
+    padding: 1% 2.5%;
+    text-align: justify; } }
+
 .big {
   font-size: 300%; }
 
@@ -631,6 +644,15 @@ h6 {
 .big-pink {
   color: #ffb347;
   font-size: 300%; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .big-pink {
+      text-align: center; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .big-pink {
+      text-align: center; } }
+  @media all and (max-width: 479px) {
+    .big-pink {
+      text-align: center; } }
 
 .big-white {
   color: white;
@@ -721,16 +743,13 @@ a.pink:visited {
 
 .about-images {
   display: inline-block;
-  margin: 0 25%; }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .about-images {
-      margin: 0 37.5%; } }
+  margin: 2.5% 25%; }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .about-images {
-      margin: 0 37.5%; } }
+      margin: 2.5% 37.5%; } }
   @media all and (max-width: 479px) {
     .about-images {
-      margin: 0 25%; } }
+      margin: 2.5% 25%; } }
 
 .about-images-rolodex {
   display: inline-block;
@@ -854,10 +873,6 @@ a.pink:visited {
     color: white;
     text-decoration: none;
     outline: none; }
-
-  .about-images {
-    display: inline-block;
-    margin: 0 37.5%; }
 
   .cupid {
     width: 150px;
