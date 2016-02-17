@@ -25,6 +25,12 @@
   height: 200px;
   border-radius: 100px;
   border: 2px solid $lt-gray;
+  @include breakpoint(tablet){
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 0 12.5%;
+  }
 }
 
 .rolodex-image{
