@@ -3,7 +3,7 @@
 a {
   color: $dk-gray;
   text-decoration: none;
-  &:hover{
+  &:hover, &:active, &:focus{
      color: $lt-gray;
      text-decoration: none;
   }
@@ -12,15 +12,6 @@ a {
   }
 }
 
-a.box {
-  color: $white;
-  &:hover{
-     color: $lt-gray;
-  }
-  &:visited{
-    color: $white;
-  }
-}
 
 
 p {
@@ -120,13 +111,6 @@ h6 {
   margin: 0;
 }
 
-.compact {
-  margin-bottom: 0;
-}
-
-.upper-compact {
-  margin-top: 0;
-}
 
 .blue {
   color: $blue;
@@ -138,16 +122,6 @@ h6 {
 
 .pink {
   color: $pink;
-}
-
-.big-blue {
-  color: $blue;
-  font-size: 300%;
-}
-
-.big-yellow{
-  color: $dk-yellow;
-  font-size: 300%;
 }
 
 .big-pink {
@@ -164,57 +138,44 @@ h6 {
   }
 }
 
-.big-white {
-  color: $white;
-  text-shadow: -1px 0 $pink, 0 1px $pink, 1px 0 $pink, 0 -1px $pink;
-  font-size: 300%;
-}
 
 .centered{
   text-align: center;
 }
 
-a.blue {
-  color: $blue;
-}
-
-
 a.yellow{
+  @include link-transition(750ms);
   color: $lt-yellow;
+  &:hover, &:active, &:focus{
+    color: $dk-yellow;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $lt-yellow;
+  }
 }
 
 
 a.pink {
+  @include link-transition(750ms);
   color: $pink;
+  &:hover, &:active, &:focus{
+    color: $dk-pink;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $pink;
+  }
 }
 
-a.blue:hover{
-  color: $dk-blue;
-   text-decoration: none;
-}
-
-a.yellow:hover{
-  color: $dk-yellow;
-  text-decoration: none;
-}
-
-a.pink:hover{
-  color: $dk-pink;
-  text-decoration: none;
-}
-
-a.blue:visited{
-  color: $dk-blue;
-}
-
-a.yellow:visited{
-  color: $dk-yellow;
-}
-
-a.pink:visited{
-  color: $dk-pink;
-}
-
-.right-align {
-  text-align: right;
+a.blue {
+  @include link-transition(750ms);
+  color: $blue;
+  &:hover, &:active, &:focus{
+    color: $dk-blue;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $blue;
+  }
 }

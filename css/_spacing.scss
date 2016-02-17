@@ -1,92 +1,48 @@
 .row-vert-space{
   margin-top: 20px;
+  @include breakpoint(mobile){
+    margin-top: 15px;
+  }
+  @include breakpoint(iphone){
+    margin-top: 15px;
+  }
 }
-.header-bump{
-  margin-left: 20px;
-}
+
 .bump-left {
   margin-left: 7%;
 }
 .big-bump-left {
   margin-left: 15%;
 }
-.big-bump-left-small-view{
-  margin-left: 20%;
-}
-.title-bump-left{
-  margin-left: 25%;
-}
 
-.header-spacing {
-  margin-top: 10px;
-}
 .bottom-space {
   margin-bottom: 50px;
 }
 .no-margin-top {
   margin-top: 0;
 }
-.no-margin-bottom{
-  margin-bottom: 0;
-}
-.no-pad{
-  padding: 0;
-}
-.nav-space {
-  margin: 0 5px;
-}
 .footer-bump {
   margin-left: 10px;
 }
-.about-images-rolodex {
-  margin: 0 15%;
-}
-
-
-
-.ten-bump{
-  margin-left: 10px;
-}
-
-.tencenter-bump{
-  text-align: center;
-  margin-left: 10px;
-}
-
-.twelve-bump{
-  margin-left: 12px;
-}
-
-.fifteen-bump{
-  margin-left: 15px;
-}
-
-.twentyfive-bump{
-  margin-left: 25px;
-}
-
-.thirty-bump{
-  margin-left: 30px;
-}
-
-.forty-bump{
-  margin-left: 40px;
-}
-
-.one-fifteen-bump{
-  margin-left: 115px;
-}
-
-.name-bump{
-  padding-left: 20px;
-}
-
-.name2-bump{
-  padding-left: 30px;
-}
-
 
 .services-container {
   display: inline;
+}
+
+.xshide{
+  cursor: pointer;
+}
+
+#xs1,
+#xs2,
+#xs3,
+#xs4,
+#xs5,
+#xs6,
+#xs7,
+#xs8,
+#xs9,
+#xs10 {
+  cursor: pointer;
 }
 
