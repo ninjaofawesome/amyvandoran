@@ -763,6 +763,36 @@ a.blue {
     .about-images-rolodex {
       margin: 0 12.5%; } }
 
+.click-more {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  position: relative;
+  float: right; }
+  .click-more .down-faq {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .click-more .up-faq {
+    background: red;
+    width: 50px;
+    height: 50px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.answer {
+  width: 75%;
+  height: auto;
+  background: green; }
+
 .footer {
   position: relative;
   bottom: 0;

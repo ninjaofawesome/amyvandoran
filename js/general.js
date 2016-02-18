@@ -11,28 +11,41 @@
     });
   }
 
+  function faq(){
+    var btn = document.getElementsByClassName('click-more');
+    var down = document.getElementsByClassName('down-faq');
+    var up = document.getElementsByClassName('up-faq');
+    var answer = document.getElementsByClassName('answer');
+
+    $(answer).hide();
+    $(up).hide();
+
+
+    $(btn).click(function(){
+      var button = $(this);
+      var upBtn = $(button).find(up);
+      var downBtn = $(button).find(down);
+      var ans = $(button).parent().find('.answer');
+      // console.log('up', upBtn);
+      // console.log('down', downBtn);
+      // console.log('answer', ans);
+      $(downBtn).fadeOut().hide();
+      $(upBtn).fadeIn().show();
+      $(ans).slideToggle(600, function(){
+       // if($(downBtn).is(':hidden')){
+       //   $(upBtn).fadeOut().hide();
+       //   $(downBtn).fadeIn().show();
+       // }
+      });
+    });
+
+  }
+
+  faq();
+
   //holy shit refactor this.
   function faqExplicit(){
-    $('.q1-hide').hide();
-    $('#q1up').hide();
-    $('.q2-hide').hide();
-    $('#q2up').hide();
-    $('.q3-hide').hide();
-    $('#q3up').hide();
-    $('.q4-hide').hide();
-    $('#q4up').hide();
-    $('.q5-hide').hide();
-    $('#q5up').hide();
-    $('.q6-hide').hide();
-    $('#q6up').hide();
-    $('.q7-hide').hide();
-    $('#q7up').hide();
-    $('.q8-hide').hide();
-    $('#q8up').hide();
-    $('.q9-hide').hide();
-    $('#q9up').hide();
-    $('.q10-hide').hide();
-    $('#q10up').hide();
+    $('.q1-hide, #q1up, .q2-hide, #q2up, .q3-hide, #q3up, .q4-hide, #q4up, .q5-hide, #q5up, .q6-hide, #q6up, .q7-hide, #q7up, .q8-hide, #q8up, .q9-hide, #q9up, .q10-hide, #q10up').hide();
 
     $('#q1').click(function(e){
       $('.q1-hide').slideDown().fadeIn();
@@ -235,5 +248,5 @@
   }
 
   mobileNavMenu();
-  faqExplicit();
+  // faqExplicit();
 })();
