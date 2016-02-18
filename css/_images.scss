@@ -19,6 +19,35 @@
   }
 
 }
+
+.rolodex-img-box{
+  @include link-transition(750ms);
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  border: none;
+  color: $md-gray;
+  &:hover, &:active, &:focus{
+    text-decoration: none;
+    color: $pink;
+  }
+  &:visited {
+    color: $md-gray;
+  }
+}
+
+.circle-img {
+  border: 2px solid $lt-gray;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+
 .cupid {
   // margin: 20px auto;
   width: 200px;

@@ -1,17 +1,24 @@
-.footer {
-  border-top: 1px solid $pink;
-  padding-top: 5px;
-  font-size: 14px;
-}
+.footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: $white;
+  border-top: 0.5px solid $lt-gray;
+  line-height: 40px;
 
-a.footer-link{
-  font-weight: bolder;
-}
+  .hannah-cta{
+    float: left;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
 
-.right-side-text{
-  float: right;
-}
-
-.inline-type{
-  display: inline;
+  .copyright{
+    float: right;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
 }

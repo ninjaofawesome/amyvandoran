@@ -1,6 +1,7 @@
 //TYPE
 
 a {
+  @include link-transition(750ms);
   color: $dk-gray;
   text-decoration: none;
   &:hover, &:active, &:focus{
@@ -38,6 +39,37 @@ h6 {
   font-family: $neutraface;
 }
 
+.rolodex-cta{
+  text-align: center;
+  font-family: $neutraface;
+}
+
+.hannah-cta {
+  @include link-transition(750ms);
+  color: $md-gray;
+  text-decoration: none;
+  &:hover, &:active, &:focus{
+     color: $pink;
+     text-decoration: none;
+  }
+  &:visited{
+    color: $md-gray;
+  }
+}
+
+.copyright{
+  @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(mobile){
+    display: none;
+  }
+  @include breakpoint(iphone){
+    display: none;
+  }
+
+}
+
 .box {
   color: $white;
   font-weight: 700;
@@ -68,8 +100,7 @@ h6 {
 }
 
 .statement {
-  margin-bottom: 0;
-  font-size: 300%;
+  margin-top: 7.5%;
 }
 
 .substatement {
