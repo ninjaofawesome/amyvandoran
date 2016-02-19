@@ -16,6 +16,7 @@
     var btn = document.getElementsByClassName('click-more');
     var answer = document.getElementsByClassName('answer');
 
+
     $(answer).hide();
 
     $(btn).click(function(){
