@@ -11,6 +11,7 @@
     });
   }
 
+
   function faq(){
     var btn = document.getElementsByClassName('click-more');
     var answer = document.getElementsByClassName('answer');
