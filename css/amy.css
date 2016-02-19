@@ -44,18 +44,6 @@ body {
 .xshide {
   cursor: pointer; }
 
-#xs1,
-#xs2,
-#xs3,
-#xs4,
-#xs5,
-#xs6,
-#xs7,
-#xs8,
-#xs9,
-#xs10 {
-  cursor: pointer; }
-
 .nav-container {
   position: fixed;
   top: 0;
