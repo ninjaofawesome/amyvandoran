@@ -72,6 +72,20 @@
     border-radius: 50px;
     margin: 0 25%;
   }
+
+  &.svcs-cupid{
+    display: block;
+    margin: 0 auto;
+    @include breakpoint(tablet){
+      margin: 0 auto;
+    }
+    @include breakpoint(mobile){
+      margin: 0 auto;
+    }
+    @include breakpoint(iphone){
+      margin: 0 auto;
+    }
+  }
 }
 
 .rolodex-image{
@@ -80,6 +94,8 @@
   border-radius: 200px;
   border: 2px solid $lt-gray;
 }
+
+
 
 .julie-cupid {
   margin: 20px 0 0 20px;

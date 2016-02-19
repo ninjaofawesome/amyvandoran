@@ -8,6 +8,42 @@
   }
 }
 
+.hidden-stagger{
+  @include breakpoint(large){
+    display: block;
+  }
+  @include breakpoint(desktop){
+    display: block;
+  }
+  @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(mobile){
+    display: none;
+  }
+  @include breakpoint(iphone){
+    display: none;
+  }
+}
+
+.shown-stagger{
+  @include breakpoint(large){
+    display: none;
+  }
+  @include breakpoint(desktop){
+    display: none;
+  }
+  @include breakpoint(tablet){
+    display: block;
+  }
+  @include breakpoint(mobile){
+    display: block;
+  }
+  @include breakpoint(iphone){
+    display: block;
+  }
+}
+
 .bump-left {
   margin-left: 7%;
 }
