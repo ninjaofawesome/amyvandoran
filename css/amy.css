@@ -763,6 +763,10 @@ a.blue {
     .about-images-rolodex {
       margin: 0 12.5%; } }
 
+.faq-question {
+  display: inline;
+  margin-right: 5px; }
+
 .click-more {
   width: 50px;
   height: 50px;
@@ -770,9 +774,8 @@ a.blue {
   border: none;
   text-decoration: none;
   position: relative;
-  float: right; }
+  display: inline; }
   .click-more .down-faq {
-    background: blue;
     width: 50px;
     height: 50px;
     z-index: 1;
@@ -780,18 +783,19 @@ a.blue {
     top: 0;
     left: 0; }
   .click-more .up-faq {
-    background: red;
     width: 50px;
     height: 50px;
     z-index: 0;
     position: absolute;
     top: 0;
     left: 0; }
+  .click-more .hidden {
+    display: none; }
 
 .answer {
   width: 75%;
   height: auto;
-  background: green; }
+  top: 0; }
 
 .footer {
   position: relative;

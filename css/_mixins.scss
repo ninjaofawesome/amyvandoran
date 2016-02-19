@@ -31,3 +31,16 @@
   -o-transition: all $time ease-out;
   transition: all $time ease-out;
 }
+
+@mixin spin($time, $deg){
+  -webkit-transition-duration: $time;
+  -moz-transition-duration: $time;
+  -ms-transition-duration: $time;
+  -o-transition-duration: $time;
+   transition-duration: $time;
+  -webkit-transform: rotate($deg); /* Safari and Chrome */
+  -ms-transform: rotate($deg); /* IE 9 */
+  -moz-transform: rotate($deg); /* Firefox */
+  -o-transform: rotate($deg); /* Opera */
+  transform: rotate($deg);
+}
