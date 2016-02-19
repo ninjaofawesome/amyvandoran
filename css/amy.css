@@ -763,9 +763,15 @@ a.blue {
     .about-images-rolodex {
       margin: 0 12.5%; } }
 
+.faq-box {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2% auto;
+  position: relative; }
+
 .faq-question {
-  display: inline;
-  margin-right: 5px; }
+  display: inline; }
 
 .click-more {
   width: 50px;
@@ -773,8 +779,8 @@ a.blue {
   background: transparent;
   border: none;
   text-decoration: none;
-  position: relative;
-  display: inline; }
+  position: absolute;
+  right: 0; }
   .click-more .down-faq {
     width: 50px;
     height: 50px;
