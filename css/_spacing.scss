@@ -8,7 +8,15 @@
   }
 }
 
-.hidden-stagger{
+.rolodex-container {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 60px auto 0 auto;
+}
+
+.hidden-stagger,
+.big-rolo{
   @include breakpoint(large){
     display: block;
   }
@@ -26,7 +34,8 @@
   }
 }
 
-.shown-stagger{
+.shown-stagger,
+.small-rolo{
   @include breakpoint(large){
     display: none;
   }

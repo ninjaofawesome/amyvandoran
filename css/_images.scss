@@ -76,11 +76,35 @@
   }
 }
 
+.rolodex-img-box {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .rolodex-image{
   width: 400px;
   height: 400px;
   border-radius: 200px;
   border: 2px solid $lt-gray;
+  display: block;
+  margin: 0 auto;
+  @include breakpoint(tablet){
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+  }
+  @include breakpoint(mobile){
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  @include breakpoint(iphone){
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
 }
 
 .about-images{
@@ -88,15 +112,4 @@
   margin: 2.5% auto;
   width: 225px;
   height: auto;
-}
-
-.about-images-rolodex{
-  display:inline-block;
-  margin: 0 37.5%;
-  @include breakpoint(mobile){
-    margin: 0 12.5%;
-  }
-  @include breakpoint(iphone){
-    margin: 0 12.5%;
-  }
 }
