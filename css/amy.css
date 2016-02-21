@@ -594,15 +594,21 @@ h6 {
       padding-left: 20px; } }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
-  .about-p {
+  .about-p,
+  .services-p,
+  .services-title {
     padding: 1% 2.5%;
     text-align: justify; } }
 @media all and (min-width: 480px) and (max-width: 767px) {
-  .about-p {
+  .about-p,
+  .services-p,
+  .services-title {
     padding: 1% 2.5%;
     text-align: justify; } }
 @media all and (max-width: 479px) {
-  .about-p {
+  .about-p,
+  .services-p,
+  .services-title {
     padding: 1% 2.5%;
     text-align: justify; } }
 
@@ -746,16 +752,16 @@ a.blue {
       margin: 0 25%; } }
   .cupid.svcs-cupid {
     display: block;
-    margin: 0 auto; }
+    margin: 10px auto; }
     @media all and (min-width: 768px) and (max-width: 991px) {
       .cupid.svcs-cupid {
-        margin: 0 auto; } }
+        margin: 10px auto; } }
     @media all and (min-width: 480px) and (max-width: 767px) {
       .cupid.svcs-cupid {
-        margin: 0 auto; } }
+        margin: 10px auto; } }
     @media all and (max-width: 479px) {
       .cupid.svcs-cupid {
-        margin: 0 auto; } }
+        margin: 10px auto; } }
 
 .rolodex-image {
   width: 400px;

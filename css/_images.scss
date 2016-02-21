@@ -75,15 +75,15 @@
 
   &.svcs-cupid{
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     @include breakpoint(tablet){
-      margin: 0 auto;
+      margin: 10px auto;
     }
     @include breakpoint(mobile){
-      margin: 0 auto;
+      margin: 10px auto;
     }
     @include breakpoint(iphone){
-      margin: 0 auto;
+      margin: 10px auto;
     }
   }
 }
