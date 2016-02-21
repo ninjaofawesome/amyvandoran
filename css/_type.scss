@@ -133,10 +133,18 @@ h6 {
     padding: 1% 2.5%;
     text-align: justify;
   }
-
 }
 
-
+.about-p{
+  @include breakpoint(large){
+    padding: 1% 2.5%;
+    text-align: justify;
+  }
+  @include breakpoint(desktop){
+    padding: 1% 2.5%;
+    text-align: justify;
+  }
+}
 
 .center-big {
   font-size: 3em;
@@ -147,8 +155,9 @@ h6 {
   font-size: 3em;
 }
 
-.squished{
+.about-title{
   margin: 0;
+  text-align: center;
 }
 
 
@@ -166,7 +175,7 @@ h6 {
 
 .big-pink {
   color: $pink;
-  font-size: 300%;
+  font-size: 3em;
   @include breakpoint(tablet){
    text-align: center;
   }
