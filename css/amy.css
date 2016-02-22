@@ -17,15 +17,6 @@ body {
 .description {
   text-align: center; }
 
-.row-vert-space {
-  margin-top: 20px; }
-  @media all and (min-width: 480px) and (max-width: 767px) {
-    .row-vert-space {
-      margin-top: 15px; } }
-  @media all and (max-width: 479px) {
-    .row-vert-space {
-      margin-top: 15px; } }
-
 .rolodex-container {
   width: 90%;
   height: auto;
@@ -73,12 +64,6 @@ body {
   .shown-stagger,
   .small-rolo {
     display: block; } }
-
-.bottom-space {
-  margin-bottom: 50px; }
-
-.no-margin-top {
-  margin-top: 0; }
 
 .services-container {
   display: inline; }
@@ -839,7 +824,7 @@ a.blue {
 
 .about-images {
   display: block;
-  margin: 2.5% auto;
+  margin: 5% auto;
   width: 225px;
   height: auto; }
 

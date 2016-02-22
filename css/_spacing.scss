@@ -1,13 +1,3 @@
-.row-vert-space{
-  margin-top: 20px;
-  @include breakpoint(mobile){
-    margin-top: 15px;
-  }
-  @include breakpoint(iphone){
-    margin-top: 15px;
-  }
-}
-
 .rolodex-container {
   width: 90%;
   height: auto;
@@ -53,13 +43,6 @@
   }
 }
 
-
-.bottom-space {
-  margin-bottom: 50px;
-}
-.no-margin-top {
-  margin-top: 0;
-}
 .services-container {
   display: inline;
 }
