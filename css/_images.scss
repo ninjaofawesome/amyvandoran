@@ -76,12 +76,6 @@
   }
 }
 
-.rolodex-img-box {
-  width: 90%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 
 .rolodex-image{
   width: 400px;
@@ -91,19 +85,67 @@
   display: block;
   margin: 0 auto;
   @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(mobile){
+    display: none;
+  }
+  @include breakpoint(iphone){
+    display: none;
+  }
+}
+
+.rolodex-image-mobile{
+  @include breakpoint(desktop){
+    display: none;
+  }
+  @include breakpoint(desktop){
+    display: none;
+  }
+  @include breakpoint(tablet){
+    display: block;
+    margin: 0 auto;
+  }
+  @include breakpoint(mobile){
+    display: block;
+    margin: 0 auto;
+  }
+  @include breakpoint(iphone){
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.rolodex-img-form{
+  @include breakpoint(desktop){
+    display: none;
+  }
+  @include breakpoint(desktop){
+    display: none;
+  }
+  @include breakpoint(tablet){
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid $lt-gray;
   }
   @include breakpoint(mobile){
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid $lt-gray;
   }
   @include breakpoint(iphone){
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid $lt-gray;
   }
 }
 

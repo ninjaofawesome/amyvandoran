@@ -770,12 +770,6 @@ a.blue {
     display: block;
     margin: 10px auto; }
 
-.rolodex-img-box {
-  width: 90%;
-  height: auto;
-  display: block;
-  margin: 0 auto; }
-
 .rolodex-image {
   width: 400px;
   height: 400px;
@@ -785,19 +779,63 @@ a.blue {
   margin: 0 auto; }
   @media all and (min-width: 768px) and (max-width: 991px) {
     .rolodex-image {
-      width: 150px;
-      height: 150px;
-      border-radius: 75px; } }
+      display: none; } }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .rolodex-image {
-      width: 100px;
-      height: 100px;
-      border-radius: 50px; } }
+      display: none; } }
   @media all and (max-width: 479px) {
     .rolodex-image {
-      width: 100px;
-      height: 100px;
-      border-radius: 50px; } }
+      display: none; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .rolodex-image-mobile {
+    display: none; } }
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .rolodex-image-mobile {
+    display: none; } }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .rolodex-image-mobile {
+    display: block;
+    margin: 0 auto; } }
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .rolodex-image-mobile {
+    display: block;
+    margin: 0 auto; } }
+@media all and (max-width: 479px) {
+  .rolodex-image-mobile {
+    display: block;
+    margin: 0 auto; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .rolodex-img-form {
+    display: none; } }
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .rolodex-img-form {
+    display: none; } }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .rolodex-img-form {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #999999; } }
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .rolodex-img-form {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #999999; } }
+@media all and (max-width: 479px) {
+  .rolodex-img-form {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #999999; } }
 
 .about-images {
   display: block;
@@ -864,6 +902,8 @@ a.blue {
     float: right;
     vertical-align: middle;
     margin-left: 10px; }
+  .footer.rolodex {
+    position: fixed; }
 
 html {
   overflow: -moz-scrollbars-vertical;
